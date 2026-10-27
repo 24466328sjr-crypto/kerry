@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>孙珈瑞 Kerry · 作品集</title>
+<meta name="description" content="孙珈瑞 Kerry 作品集 CREATIVE WORKS COLLECTION">
+<style>
+:root{
+  --bg:#fbfaf8; --card:#ffffff; --text:#222; --muted:#6b6b6b; --line:#e8e4de; --accent:#7a5ea8;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.8;font-size:16px;-webkit-text-size-adjust:100%}
+a{color:var(--accent);word-break:break-all}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:10;background:rgba(251,250,248,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;gap:22px;overflow-x:auto;white-space:nowrap;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
+.nav .wrap::-webkit-scrollbar{display:none}
+.nav a{color:var(--muted);text-decoration:none;font-size:14px;word-break:normal}
+.nav a:hover{color:var(--accent)}
+
+/* hero */
+.hero{padding:96px 0 80px;text-align:center}
+.hero .en{letter-spacing:.4em;font-size:13px;color:var(--muted)}
+.hero h1{font-size:clamp(34px,8vw,56px);margin:18px 0 8px;font-weight:600;letter-spacing:.06em}
+.hero .sub{font-size:18px;letter-spacing:.3em;color:var(--accent);margin:0}
+.hero .line{width:48px;height:2px;background:var(--accent);margin:36px auto 18px}
+.hero .tag{font-size:12px;letter-spacing:.3em;color:var(--muted)}
+
+/* sections */
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;font-weight:600;margin:0 0 32px;letter-spacing:.04em}
+h2 small{display:block;font-size:13px;font-weight:400;color:var(--muted);letter-spacing:.2em;margin-bottom:6px}
+h3{font-size:19px;margin:0 0 12px;font-weight:600}
+h4{font-size:15px;margin:22px 0 6px;color:var(--accent);font-weight:600}
+p{margin:0 0 10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 24px;margin-bottom:28px}
+.item ul{margin:0 0 10px;padding-left:1.2em}
+.item li{margin-bottom:4px}
+.nolist{list-style:none;padding-left:0!important}
+.muted{color:var(--muted);font-size:14px}
+
+/* about */
+.about{display:grid;gap:28px}
+.about .portrait{width:180px;border-radius:12px;margin:0 auto}
+.cols{display:grid;gap:28px}
+
+/* gallery */
+.gallery{columns:2;column-gap:10px;margin-top:20px}
+.gallery img{width:100%;margin:0 0 10px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:zoom-in;break-inside:avoid}
+.gallery.big{columns:1}
+.gallery.mid{columns:2}
+
+/* video */
+.video{margin:16px 0 8px}
+.video iframe{display:block;background:#eee;border-radius:10px}
+.video-note{font-size:13px;color:var(--muted);margin:6px 0 0}
+.work{padding:20px 0;border-top:1px dashed var(--line)}
+.work:first-of-type{border-top:0;padding-top:0}
+.work .thumb{border-radius:8px;border:1px solid var(--line);margin:0 0 14px}
+
+/* lightbox */
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:50;padding:16px;cursor:zoom-out}
+#lb.on{display:flex}
+#lb img{max-height:94vh;max-width:96vw;object-fit:contain;border-radius:4px}
+
+footer{padding:64px 0 80px;text-align:center;border-top:1px solid var(--line)}
+footer .thanks{color:var(--muted);letter-spacing:.2em;margin-bottom:18px}
+
+@media (min-width:720px){
+  .about{grid-template-columns:200px 1fr;align-items:start}
+  .about .portrait{width:100%}
+  .cols{grid-template-columns:1fr 1fr}
+  .gallery{columns:3}
+  .gallery.big{columns:2}
+  .item{padding:36px 40px}
+  .hero{padding:140px 0 110px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap">
+  <a href="#top">首页</a>
+  <a href="#about">简介</a>
+  <a href="#accounts">新媒体账号搭建</a>
+  <a href="#content">内容策划与运营</a>
+  <a href="#video">视频创作</a>
+  <a href="#design">平面作品</a>
+  <a href="#podcast">播客作品</a>
+  <a href="#contact">联系方式</a>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="en">PORTFOLIO</div>
+  <h1>孙珈瑞 Kerry</h1>
+  <p class="sub">作品集</p>
+  <div class="line"></div>
+  <div class="tag">CREATIVE WORKS COLLECTION</div>
+</div></header>
+
+<!-- 简介 -->
+<section id="about"><div class="wrap">
+  <div class="about">
+    <img class="portrait" src="images/p02-01.jpg" alt="孙珈瑞" loading="lazy">
+    <div>
+      <h2><small>ABOUT</small>内容策划与运营</h2>
+      <h3>央视网—节目制作</h3>
+      <p>参与《节气新生活》和《美术里的中国》栏目创作，独立完成节目后期精切稿，撰写微博推广文案。</p>
+      <h3 style="margin-top:20px">短视频营销公司—短视频编导实习生</h3>
+      <p>在优矩互动负责 3CE、Fanbeauty 美妆品牌千川短视频全流程制作（创意、脚本、拍摄），产出超200条视频，其中近20条高转化视频ROI达1.8+。</p>
+    </div>
+  </div>
+  <div class="cols" style="margin-top:36px">
+    <div>
+      <h3>实践经验与能力</h3>
+      <h4>爆款视频创作经验：</h4>
+      <ul>
+        <li>单条视频播放近1000w/点赞近20w；</li>
+        <li>爆款视频点赞超6w</li>
+      </ul>
+      <h4>视频创作</h4>
+      <p>擅长使用PR等剪辑软件制作人物新闻纪录片/活动记录/街采等主题视频。</p>
+      <h4>平面设计与摄像</h4>
+      <p>擅长使用PS进行制图，能够搭建网站。<br>擅长人物与活动摄影，小红书摄影账号创建半年粉丝近1w。</p>
+    </div>
+    <div>
+      <h3>自我评价：</h3>
+      <h4>创意丰富：</h4>
+      <p>擅长挖掘新颖独特的创意点，能为广告策划和品牌推广提供创新思路，吸引目标受众关注。</p>
+      <h4>沟通对接能力强：</h4>
+      <p>采访超30余位对象，涵盖不同行业。与嘉宾对接流畅，能和甲方团队高效协作。</p>
+      <h4>文字功底强：</h4>
+      <p>具备不同载体文本输出能力（新媒体推广文案，公众号推文，脚本，剧本）</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- 新媒体账号搭建 -->
+<section id="accounts"><div class="wrap">
+  <h2><small>SOCIAL MEDIA ACCOUNTS</small>新媒体账号搭建</h2>
+
+  <article class="item">
+    <h3>新媒体账号搭建—微博</h3>
+    <p>从0至1打造Kpop粉圈微博账号，管理团队运营逾三载。账号专注速递海外资讯，策划抽奖与周年庆典。深谙平台规则，精于账号数据管理与分析。</p>
+    <div class="gallery">
+      <img src="images/p03-02.jpg" alt="微博账号主页截图" loading="lazy">
+      <img src="images/p03-03.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p03-04.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p03-05.jpg" alt="微博内容截图" loading="lazy">
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>新媒体账号搭建—微博</h3>
+    <h4>账号运营：</h4>
+    <p>运营专注于快速传递体育资讯、呈现精彩赛事图频的体育垂直领域微博账号。策划并制作/精选高质量赛事图片集锦、GIF动图、短视频片段。针对重大赛事、热点事件或人物撰写原创体育评论文章。运营一年半积攒9w粉丝，转赞评168w。</p>
+    <div class="gallery">
+      <img src="images/p04-06.jpg" alt="体育微博账号主页截图" loading="lazy">
+      <img src="images/p04-01.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p04-02.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p04-03.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p04-04.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p04-05.jpg" alt="微博内容截图" loading="lazy">
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>新媒体账号搭建—b站</h3>
+    <h4>账号运营：</h4>
+    <p>独立运营B站娱乐领域账号，专注影视/综艺/明星二创视频，全年视频总播放量突破2000万，转评赞互动总量超76万，创作一年粉丝量积攒至4000。</p>
+    <h4>核心能力：</h4>
+    <ul class="nolist">
+      <li>▶️ 热点捕捉：快速锁定娱乐高潜话题，抢占内容时效性；</li>
+      <li>▶️ 创意重构：通过混剪、鬼畜等形式赋予素材新生命力；</li>
+      <li>▶️ 网感调优：精准把握B站用户喜好，设计高传播性标题、封面及互动钩子。</li>
+    </ul>
+    <div class="gallery">
+      <img src="images/p05-02.jpg" alt="B站账号主页截图" loading="lazy">
+      <img src="images/p05-01.jpg" alt="B站创作中心数据截图" loading="lazy">
+      <img src="images/p05-03.jpg" alt="B站视频数据截图" loading="lazy">
+      <img src="images/p05-04.jpg" alt="B站视频数据截图" loading="lazy">
+      <img src="images/p05-05.jpg" alt="B站视频数据截图" loading="lazy">
+      <img src="images/p05-06.jpg" alt="B站视频数据截图" loading="lazy">
+      <img src="images/p05-07.jpg" alt="B站视频数据截图" loading="lazy">
+    </div>
+    <!-- 视频占位：B站二创作品，BV号待补充 -->
+    <div class="video">
+      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+    </div>
+  </article>
+</div></section>
+
+<!-- 内容策划与运营 -->
+<section id="content"><div class="wrap">
+  <h2><small>CONTENT PLANNING &amp; OPERATION</small>内容策划与运营</h2>
+
+  <article class="item">
+    <h3>内容策划与运营—咖啡品牌海外社媒</h3>
+    <p>负责品牌Instagram账号内容创作，独立完成咖啡产品、门店场景及活动素材的拍摄、调色与短视频制作，统一品牌视觉风格，打造温馨治愈的社区咖啡品牌形象，助力账号内容运营与品牌曝光。</p>
+    <div class="gallery">
+      <img src="images/p06-04.jpg" alt="Instagram 账号主页截图" loading="lazy">
+      <img src="images/p06-02.jpg" alt="Instagram 内容截图" loading="lazy">
+      <img src="images/p06-03.jpg" alt="Instagram 内容截图" loading="lazy">
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营—抖音爆款</h3>
+    <p>擅长敏锐洞察，热点嗅觉，引爆流量<br>能够精准捕捉热点并及时响应，通过高效的内容策划与制作，将热点转化成具有强传播力，高互动性的创意视频，</p>
+    <div class="cols" style="margin-top:18px">
+      <div>
+        <h4>#斯琴高娃模仿#</h4>
+        <p>点赞18w<br>播放量827w</p>
+        <img src="images/p07-03.jpg" alt="数据截图" loading="lazy" style="border:1px solid var(--line);border-radius:8px">
+      </div>
+      <div>
+        <h4>#晚晚大鹏展翅#</h4>
+        <p>点赞1.5w<br>播放量168w</p>
+        <img src="images/p07-04.jpg" alt="数据截图" loading="lazy" style="border:1px solid var(--line);border-radius:8px">
+      </div>
+    </div>
+    <div class="gallery mid">
+      <img src="images/p07-01.jpg" alt="抖音视频截图" loading="lazy">
+      <img src="images/p07-02.jpg" alt="抖音视频截图" loading="lazy">
+    </div>
+    <!-- 视频占位：抖音爆款，BV号待补充 -->
+    <div class="video">
+      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营—小红书爆款</h3>
+    <h4>将个人爱好淬炼成爆款作品</h4>
+    <p>演唱会体验连出两条爆款视频。饭制产出获赞6.3w，浏览量登顶演唱会系列饭制产出。从个人经历提炼经验，引发情绪共鸣。浏览量超8w</p>
+    <p>捕捉赛场高光时刻，赛场抢拍作品获小红书官方认证，入选“热点薯”当周精选。（点赞2k➕）</p>
+    <div class="gallery">
+      <img src="images/p08-04.jpg" alt="小红书笔记截图" loading="lazy">
+      <img src="images/p08-05.jpg" alt="小红书笔记截图" loading="lazy">
+      <img src="images/p08-01.jpg" alt="小红书笔记截图" loading="lazy">
+      <img src="images/p08-03.jpg" alt="小红书“热点薯”截图" loading="lazy">
+    </div>
+    <p class="muted" style="margin-top:14px">作品链接：<br>
+      <a href="http://xhslink.com/m/1WUCVM3YWJW" target="_blank" rel="noopener">http://xhslink.com/m/1WUCVM3YWJW</a><br>
+      <a href="http://xhslink.com/m/9n8R9BfBV8V" target="_blank" rel="noopener">http://xhslink.com/m/9n8R9BfBV8V</a><br>
+      <a href="http://xhslink.com/m/8sVUNKMtbkt" target="_blank" rel="noopener">http://xhslink.com/m/8sVUNKMtbkt</a>
+    </p>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营—电商短视频编导</h3>
+    <h4>核心产出：</h4>
+    <p>服务护肤品牌 Fanbeauty 及彩妆品牌 3CE 的抖音千川短视频矩阵建设。</p>
+    <p>深度理解品牌调性与产品卖点，策划强转化导向的短视频创意，并撰写精准高效的拍摄脚本。</p>
+    <p>成功孵化近20条ROI 1.8+的高转化爆款视频，验证了出色的转化率思维与爆款内容打造能力，有效提升直播间GMV。</p>
+    <div class="gallery">
+      <img src="images/p09-01.jpg" alt="短视频画面" loading="lazy">
+      <img src="images/p09-02.jpg" alt="短视频画面" loading="lazy">
+      <img src="images/p09-05.jpg" alt="短视频画面" loading="lazy">
+    </div>
+    <h4>作品案例</h4>
+    <div class="work">
+      <p>【3ce眼影盘-哔哩哔哩】<br><a href="https://b23.tv/6FLSoef" target="_blank" rel="noopener">https://b23.tv/6FLSoef</a></p>
+      <!-- 视频占位：3ce眼影盘，BV号待补充（PDF 原文为 b23.tv/6FLSoef 短链） -->
+      <div class="video">
+        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+      </div>
+    </div>
+    <div class="work">
+      <p>【Fanbeauty套组活动-哔哩哔哩】<br><a href="https://b23.tv/Lts9gFj" target="_blank" rel="noopener">https://b23.tv/Lts9gFj</a></p>
+      <!-- 视频占位：Fanbeauty套组活动，BV号待补充（PDF 原文为 b23.tv/Lts9gFj 短链） -->
+      <div class="video">
+        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+      </div>
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营—微博文案</h3>
+    <p>为央视《美术里的中国》《节气新生活》栏目撰写微博文案，深度理解栏目内涵与目标受众，创作兼具文化深度与网络热度的微博文案，有效驱动用户关注、转发与讨论。</p>
+    <div class="gallery">
+      <img src="images/p10-02.jpg" alt="微博文案截图" loading="lazy">
+      <img src="images/p10-03.jpg" alt="微博文案截图" loading="lazy">
+      <img src="images/p10-04.jpg" alt="微博文案截图" loading="lazy">
+      <img src="images/p10-05.jpg" alt="微博文案截图" loading="lazy">
+      <img src="images/p10-06.jpg" alt="微博文案截图" loading="lazy">
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营—精切稿</h3>
+    <p>对长视频节目进行深度解构与提炼，撰写精准捕捉节目精髓的精切稿件，显著提升新媒体端节目内容的曝光与转化。</p>
+    <div class="gallery">
+      <img src="images/p11-01.jpg" alt="节目封面" loading="lazy">
+      <img src="images/p11-02.jpg" alt="精切稿截图" loading="lazy">
+      <img src="images/p11-03.jpg" alt="精切稿截图" loading="lazy">
+      <img src="images/p11-04.jpg" alt="精切稿截图" loading="lazy">
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>内容策划与运营——校园公众号</h3>
+    <h4>核心业务：</h4>
+    <p>管理校内公众号《岛屿视界》的运营策划，涵盖选题策划、内容创作、编辑发布及用户互动。系统性选题开发。</p>
+    <h4>部分选题策划展示</h4>
+    <p>（在保证长文质量的基础上能保持月更，高峰期能保证公众号月产2篇1w字➕的作品。单篇最高阅读5000+）</p>
+    <div class="gallery">
+      <img src="images/p12-03.jpg" alt="公众号主页截图" loading="lazy">
+      <img src="images/p12-04.jpg" alt="公众号选题列表截图" loading="lazy">
+      <img src="images/p12-05.jpg" alt="公众号选题列表截图" loading="lazy">
+      <img src="images/p12-01.jpg" alt="公众号文章截图" loading="lazy">
+      <img src="images/p12-02.jpg" alt="公众号文章截图" loading="lazy">
+    </div>
+    <h4 style="margin-top:30px">内容策划与运营——校园公众号</h4>
+    <p>参与公众号特刊的排版制作</p>
+    <h4>成果展示</h4>
+    <div class="gallery">
+      <img src="images/p13-01.jpg" alt="公众号特刊成果" loading="lazy">
+      <img src="images/p13-02.jpg" alt="公众号特刊成果" loading="lazy">
+      <img src="images/p13-03.jpg" alt="公众号特刊成果" loading="lazy">
+      <img src="images/p13-04.jpg" alt="公众号特刊成果" loading="lazy">
+    </div>
+  </article>
+</div></section>
+
+<!-- 视频创作 -->
+<section id="video"><div class="wrap">
+  <h2><small>VIDEO WORKS</small>视频创作</h2>
+
+  <article class="item">
+    <h3>视频创作——人物新闻纪录片</h3>
+    <p>挖掘人文故事，并撰写和执行具体拍摄方案。能够独立完成全流程制作（选题，脚本，联系采访，拍摄，剪辑，）</p>
+
+    <div class="work">
+      <h4>1　老上海修面师在香港</h4>
+      <img class="thumb" src="images/p14-01.jpg" alt="老上海修面师在香港" loading="lazy" style="max-width:420px">
+      <p class="muted"><a href="https://www.bilibili.com/video/BV13E33zFExn/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV13E33zFExn/</a></p>
+      <!-- 视频占位：老上海修面师在香港，BV号待补充（PDF 中链接为 BV13E33zFExn） -->
+      <div class="video">
+        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+      </div>
+    </div>
+    <div class="work">
+      <h4>2　香港最后的批花工艺传承人</h4>
+      <img class="thumb" src="images/p14-03.jpg" alt="香港最后的批花工艺传承人" loading="lazy" style="max-width:420px">
+      <p class="muted"><a href="https://www.bilibili.com/video/BV1CMG5z4EWN/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1CMG5z4EWN/</a></p>
+      <!-- 视频占位：香港最后的批花工艺传承人，BV号待补充（PDF 中链接为 BV1CMG5z4EWN） -->
+      <div class="video">
+        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+      </div>
+    </div>
+    <div class="work">
+      <h4>3　珠海情侣的贴纸相创业故事</h4>
+      <img class="thumb" src="images/p14-05.jpg" alt="珠海情侣的贴纸相创业故事" loading="lazy" style="max-width:420px">
+      <p class="muted"><a href="https://www.bilibili.com/video/BV1Qg4y1f7a3/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Qg4y1f7a3/</a></p>
+      <!-- 视频占位：珠海情侣的贴纸相创业故事，BV号待补充（PDF 中链接为 BV1Qg4y1f7a3） -->
+      <div class="video">
+        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+      </div>
+    </div>
+  </article>
+
+  <article class="item">
+    <h3>视频创作——活动记录</h3>
+    <div class="gallery">
+      <img src="images/p15-01.jpg" alt="视频回顾 DONE with Started 互动媒体毕业展" loading="lazy">
+      <img src="images/p15-02.jpg" alt="活动记录画面合集" loading="lazy">
+      <img src="images/p16-01.jpg" alt="活动记录画面" loading="lazy">
+    </div>
+    <p class="muted" style="margin-top:12px"><a href="http://xhslink.com/m/4rWJ7et1l7p" target="_blank" rel="noopener">http://xhslink.com/m/4rWJ7et1l7p</a></p>
+    <!-- 视频占位：活动记录 1，BV号待补充 -->
+    <div class="video">
+      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+    </div>
+    <!-- 视频占位：活动记录 2，BV号待补充 -->
+    <div class="video">
+      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+    </div>
+  </article>
+</div></section>
+
+<!-- 平面作品 -->
+<section id="design"><div class="wrap">
+  <h2><small>GRAPHIC DESIGN</small>平面作品</h2>
+  <article class="item">
+    <p>熟练掌握PS/PR/Procreate进行平面创作</p>
+    <div class="gallery">
+      <img src="images/p17-01.jpg" alt="个人网站页面" loading="lazy">
+      <img src="images/p17-02.jpg" alt="个人网站页面" loading="lazy">
+      <img src="images/p17-03.jpg" alt="平面设计作品" loading="lazy">
+      <img src="images/p17-04.jpg" alt="平面设计作品" loading="lazy">
+      <img src="images/p17-05.jpg" alt="平面设计作品" loading="lazy">
+      <img src="images/p17-06.jpg" alt="平面设计作品" loading="lazy">
+    </div>
+    <p class="muted" style="margin-top:12px"><a href="https://lorettaliu0114.wixsite.com/master-ng" target="_blank" rel="noopener">https://lorettaliu0114.wixsite.com/master-ng</a></p>
+  </article>
+</div></section>
+
+<!-- 播客作品 -->
+<section id="podcast"><div class="wrap">
+  <h2><small>PODCAST</small>播客作品</h2>
+  <article class="item">
+    <div class="about">
+      <img class="portrait" src="images/p18-01.jpg" alt="The Voice of BU" loading="lazy">
+      <div>
+        <h3>《数字永生》：奇迹背后的机遇与危机</h3>
+        <p class="muted">Digital Afterlife: The Opportunities and Crises behind the 'Miracle'</p>
+        <p>你看过迪士尼出品的电影《coco》吗？这部电影描绘了墨西哥的亡灵节，讲述了一个充满感情的故事，展现了生与死之间的联系。它想要表达的核心思想是：死亡并非生命的终结，而是被遗忘而已。而在现实生活中，如今也出现了一群“可可”，他们利用人工智能和虚拟技术让人们与逝者进行实时交流。这种现象不仅在中国出现，在西方国家也有类似的情况，它也展示了技术所能带来的不同可能性。</p>
+        <p class="muted"><a href="https://www.bilibili.com/video/BV1HNwvz9ErZ/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1HNwvz9ErZ/</a></p>
+      </div>
+    </div>
+    <!-- 视频占位：播客《数字永生》，BV号待补充（PDF 中链接为 BV1HNwvz9ErZ） -->
+    <div class="video">
+      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
+    </div>
+  </article>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+  <div class="thanks">感谢您的耐心阅读</div>
+  <p>邮箱：<a href="mailto:sunkerry16@163.com">sunkerry16@163.com</a></p>
+</div></footer>
+
+<div id="lb" aria-hidden="true"><img alt=""></div>
+
+<script>
+(function(){
+  var lb=document.getElementById('lb'),big=lb.querySelector('img');
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    if(t.tagName==='IMG'&&t.closest('.gallery')){big.src=t.src;lb.classList.add('on');}
+    else if(lb.classList.contains('on')){lb.classList.remove('on');}
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on');});
+})();
+</script>
+</body>
+</html>
