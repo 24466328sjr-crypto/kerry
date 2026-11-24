@@ -1,176 +1,146 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>孙珈瑞 Kerry · 作品集</title>
-<meta name="description" content="孙珈瑞 Kerry 作品集 CREATIVE WORKS COLLECTION">
-<style>
-:root{
-  --bg:#fbfaf8; --card:#ffffff; --text:#222; --muted:#6b6b6b; --line:#e8e4de; --accent:#7a5ea8;
-  --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.8;font-size:16px;-webkit-text-size-adjust:100%}
-a{color:var(--accent);word-break:break-all}
-img{max-width:100%;height:auto;display:block}
-.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>孙珈瑞 Kerry · 创意作品集</title><meta name="description" content="孙珈瑞 Kerry 个人作品集：新媒体账号搭建、内容策划与运营、视频创作、平面设计与播客作品。">
+<meta name="theme-color" content="#f5f5f1"><style>
+:root{--paper:#f5f5f1;--ink:#30372e;--muted:#66705f;--line:#d6d9ce;--lilac:#e6e1ec;--sage:#e1e6d9;--pink:#ede1df;--blue:#e0e6ea;--serif:Georgia,"Times New Roman",serif;--sans:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 var(--sans);-webkit-text-size-adjust:100%}body.modal-open{overflow:hidden}::selection{background:#d8cbe4;color:var(--ink)}a{color:inherit;text-underline-offset:5px}button{font:inherit;color:inherit;cursor:pointer}button,a,summary{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #766182;outline-offset:6px}img{max-width:100%;display:block}button{border:0}h1,h2,h3,h4,p{margin:0}h2,h3,h4{font-weight:500}a{text-decoration:none}.shell{width:min(1280px,calc(100% - 112px));margin:auto}.eyebrow{display:block;font-size:12px;letter-spacing:.13em;line-height:1.5;font-weight:500}.skip-link{position:fixed;left:20px;top:-100px;background:var(--ink);color:white;padding:12px;z-index:100}.skip-link:focus{top:16px}
+.nav{position:sticky;top:0;z-index:20;background:rgba(245,245,241,.92);backdrop-filter:blur(16px)}.nav-inner{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-family:var(--sans);font-size:26px;letter-spacing:.02em;line-height:1}.brand span{font-family:var(--serif);font-size:16px;margin-left:10px;letter-spacing:0}.nav-links{display:flex;gap:36px;font-size:14px}.nav-links a{position:relative}.nav-links a:after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s}.nav-links a:hover:after{transform:scaleX(1)}.nav-note{font-size:12px;letter-spacing:.1em;color:var(--muted)}
+.hero{min-height:690px;display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:40px;padding-top:56px;padding-bottom:62px;position:relative}.hero-label{display:flex;align-items:center;gap:14px}.hero-label:before{content:"";height:1px;width:40px;background:var(--ink)}.hero h1{font:400 clamp(76px,9vw,132px)/1.2 "Songti SC","STSong","SimSun",serif;letter-spacing:-.02em;white-space:nowrap;margin:32px 0 12px}.hero h1 span{color:#7c7188}.hero-name{display:flex;align-items:center;gap:22px;font-size:25px;letter-spacing:.03em;margin-bottom:32px}.english-name{font-family:var(--serif);font-size:1.2em;letter-spacing:.01em}.hero-name .rule{height:1px;width:72px;background:#a6ab9f}.hero-role{font-size:clamp(24px,2.6vw,36px);line-height:1.6;font-weight:400;letter-spacing:.04em}.hero-sub{font-size:14px;color:var(--muted);margin:14px 0 30px}.pill-link{display:inline-flex;align-items:center;gap:24px;padding:12px 24px;border:1px solid var(--ink);border-radius:40px;font-size:14px;transition:background .25s,color .25s}.pill-link:hover{background:var(--ink);color:var(--paper)}.pill-link .mini-plus{font-size:22px;line-height:1;font-weight:300}.hero-art{position:relative;height:520px;min-width:0}.portrait-orbit{position:absolute;left:16%;top:7%;width:72%;height:78%;background:var(--lilac);border-radius:48% 48% 45% 45%;transform:rotate(-9deg)}.hero-portrait{position:absolute;height:400px;width:280px;left:24%;top:40px;object-fit:contain;mix-blend-mode:multiply;transform:rotate(1deg)}.hero-sticker{position:absolute;width:180px;right:0;bottom:4px;padding:10px 10px 12px;background:#fff;box-shadow:0 10px 28px #30372e0b;transform:rotate(8deg);transition:transform .4s}.hero-sticker:hover{transform:rotate(2deg) translateY(-4px)}.hero-sticker img{aspect-ratio:1;object-fit:contain}.hero-sticker span{display:block;font-size:12px;letter-spacing:.04em;margin-top:8px}.art-caption{position:absolute;left:8%;bottom:23px;font:italic 22px/1.25 var(--serif);transform:rotate(-8deg)}.spark{position:absolute;left:0;top:20px;width:104px;height:104px;animation:turn 40s linear infinite}.orbit-note{position:absolute;right:0;top:15px;writing-mode:vertical-rl;font-size:12px;letter-spacing:.22em}.hero-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:12px;letter-spacing:.06em}.hero-bottom span:last-child{letter-spacing:.13em}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);padding:42px 0 48px;border-bottom:1px solid var(--line);gap:24px}.metric{padding-left:32px;border-left:1px solid var(--line)}.metric:first-child{border:0;padding-left:0}.metric strong{font:normal clamp(38px,4.1vw,58px)/1.2 var(--serif);letter-spacing:-.04em}.metric strong small{font:20px var(--sans);margin-left:5px}.metric h3{font-size:18px;font-weight:500;line-height:1.6;margin-top:12px}.metric p{font-size:14px;color:var(--muted);margin-top:8px;line-height:1.8}
+.works{padding:94px 0 100px}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:34px}.section-heading h2{font-size:clamp(32px,3.6vw,48px);line-height:1.3;letter-spacing:-.03em}.section-heading h2 em{font:italic 1.1em var(--serif);margin-left:12px;color:#80758b}.section-heading .eyebrow{margin-bottom:12px}.section-aside{color:var(--muted);font-size:14px;text-align:right}.filter-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:40px}.filter{border:1px solid var(--line);background:transparent;padding:9px 18px;border-radius:30px;font-size:14px;transition:background .2s,border-color .2s}.filter[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}.filter:hover{border-color:var(--ink)}.result-count{margin-left:auto;font-size:12px;letter-spacing:.06em;color:var(--muted)}.work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:38px;row-gap:50px;align-items:start}.project{min-width:0;scroll-margin-top:110px}.project[hidden]{display:none}.project summary{list-style:none;cursor:pointer}.project summary::-webkit-details-marker{display:none}.project-visual{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:var(--lilac);height:360px;padding:34px;isolation:isolate}.sage .project-visual{background:var(--sage)}.pink .project-visual{background:var(--pink)}.blue .project-visual{background:var(--blue)}.project-visual>img{width:auto;height:auto;max-height:100%;max-width:90%;object-fit:contain;transition:transform .65s cubic-bezier(.2,.7,.3,1);box-shadow:0 8px 22px #20251f0c}.project summary:hover .project-visual>img{transform:translateY(-5px) rotate(-2deg) scale(1.025)}.project-visual .second-cover{margin-left:18px;transform:translateY(25px) rotate(7deg);max-width:40%;max-height:88%}.project-visual:has(.second-cover)>img:first-child{transform:translateY(-12px) rotate(-6deg);max-width:40%;max-height:88%}.project summary:hover .project-visual .second-cover{transform:translateY(18px) rotate(4deg)}.visual-video-0,.visual-video-1{padding:0}.visual-video-0>img,.visual-video-1>img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:cover}.visual-video-0>img{object-position:50% 48%}.visual-accounts-1{padding:46px 64px}.visual-accounts-1>img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center}.visual-content-3>img{transform:rotate(-8deg);height:125%;max-height:125%;margin-top:34px}.visual-content-4>img{max-width:78%;max-height:100%;object-fit:contain}.visual-podcast-0>img{max-height:84%;transform:rotate(-5deg);box-shadow:12px 14px 0 #f5f5f166}.open-mark{position:absolute;right:18px;bottom:18px;display:grid;place-items:center;width:38px;height:38px;background:var(--paper);border-radius:50%;font-size:25px;line-height:1;transition:background .25s,color .25s,transform .4s;z-index:1}.project summary:hover .open-mark{background:var(--ink);color:var(--paper);transform:rotate(90deg)}.project-caption{display:block;position:relative;padding:22px 0 0}.project-caption .eyebrow{color:var(--muted);font-size:12px;margin-bottom:9px}.project-title{display:block;font-size:23px;font-weight:500;letter-spacing:-.02em;padding-right:38px;line-height:1.45}.project-note{display:block;color:var(--muted);font-size:14px;margin-top:9px}.detail-hint{display:block;font-size:12px;color:var(--muted);margin-top:15px}.detail-hint:after{content:" +"}.project[open]{grid-column:1/-1;padding:24px;background:#eeefe8;border:1px solid var(--line)}.project[open]>summary{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:38px}.project[open] .project-visual{height:290px}.project[open] .project-caption{padding:0}.project[open] .project-title{font-size:30px}.project[open] .detail-hint{font-size:0}.project[open] .detail-hint:after{content:"收起项目 −";font-size:14px}.project[open] .open-mark{transform:rotate(45deg)}.project-body{padding:36px 14px 4px;border-top:1px solid var(--line);margin-top:30px}.project-body h3{font-size:23px;line-height:1.6;margin-bottom:18px}.project-body h4{font-size:17px;margin:24px 0 9px}.project-body p{max-width:900px;line-height:1.95;margin-bottom:14px}.project-body a{font-size:14px;text-decoration:underline;overflow-wrap:anywhere}.project-body ul{padding-left:1.2em}.project-body .nolist{list-style:none;padding-left:0}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:16px;margin:26px 0}.gallery img,.project-body .thumb{max-width:100%;max-height:480px;object-fit:contain;object-position:top;margin:auto;cursor:zoom-in;background:#fff}.gallery img{width:100%;border:1px solid #30372e0a}.gallery img:hover{outline:1px solid #8b7b99}.project-body .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}.project-body .cols img{max-height:160px;object-fit:contain;object-position:left}.project-body .work{padding:24px 0;border-top:1px solid var(--line)}.project-body .thumb{max-height:290px;margin:0 0 16px}.project-body .about{display:grid;grid-template-columns:160px 1fr;gap:32px}.project-body .portrait{max-width:160px}.muted{color:var(--muted);font-size:14px}.close-project{display:block;width:100%;padding:15px 20px;margin-top:32px;border-top:1px solid var(--line);background:transparent;text-align:center;font-size:14px}.close-project span{padding-left:8px}.close-project:hover{background:#e4e7da}
+.about-section{padding:94px 0 98px;background:var(--lilac)}.about-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:50px}.about-heading h2{font:italic 56px var(--serif);letter-spacing:-.04em}.about-heading span{font-size:14px}.about-section>.shell>.about{display:grid;grid-template-columns:260px 1fr;gap:70px;align-items:start}.about-section .portrait{width:100%;max-height:330px;object-fit:contain;mix-blend-mode:multiply}.about-section .about h2{font-size:28px;margin:12px 0 26px}.about-section h3{font-size:20px;margin-bottom:12px}.about-section .about h3:not(:first-child){margin-top:22px}.about-section p,.about-section li{line-height:1.95}.about-section .cols{display:grid;grid-template-columns:1fr 1fr;gap:70px;border-top:1px solid #30372e26;margin-top:50px;padding-top:36px}.about-section .cols h3{font-size:22px;margin-bottom:22px}.about-section h4{font-size:16px;margin:20px 0 7px;font-weight:600}.about-section ul{padding-left:20px;margin:6px 0}.tool-note{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.tool-note span{font-size:12px;border:1px solid #30372e40;padding:6px 14px;border-radius:24px}
+.contact{padding:64px 0 0;background:var(--ink);color:var(--paper)}.contact-top{display:flex;justify-content:space-between;align-items:flex-start;gap:30px}.contact .eyebrow{color:#c6cdbd;margin-bottom:22px}.contact-top>div:first-child{min-width:0}.contact h2{font-size:clamp(26px,2.7vw,34px);font-weight:400;line-height:1.65}.email{display:inline-block;font-size:clamp(20px,2.2vw,28px);font-family:var(--serif);letter-spacing:-.02em;border-bottom:1px solid #c6cdbd88;margin:24px 0 26px;overflow-wrap:anywhere}.address-label{display:block;font-size:14px;color:#c6cdbd;margin-top:22px}.contact-address .email{margin-top:0}.copy-email{display:block;background:transparent;color:#d1d7c7;border:1px solid #c6cdbd66;border-radius:30px;padding:7px 16px;font-size:14px}.copy-email:hover{background:#46503f}.footer-spark{width:80px;height:80px;color:#c9cfaf;margin-top:38px;flex-shrink:0}.footer-word{font:clamp(36px,5vw,64px)/1.2 var(--serif);letter-spacing:-.045em;margin:38px 0 28px;color:#c9cfaf;max-width:100%;overflow-wrap:break-word}.footer-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:18px;font-size:12px;color:#c6cdbd;border-top:1px solid #c6cdbd44;padding:26px 0}.footer-bottom a{font-size:14px}.lightbox{border:0;margin:auto;padding:58px 64px 66px;max-width:100vw;max-height:100dvh;width:100vw;height:100dvh;background:#252a25f7;color:white;overflow:hidden}.lightbox::backdrop{background:#252a25f7}.lightbox-inner{height:100%;display:flex;justify-content:center;align-items:center}.lightbox img{max-width:100%;max-height:100%;width:auto;object-fit:contain}.lb-close{position:absolute;right:24px;top:16px;background:transparent;color:white;font-size:30px;padding:2px 12px}.lb-prev,.lb-next{position:absolute;top:47%;border:1px solid #ffffff55;border-radius:50%;width:40px;height:40px;background:#ffffff10;color:white;font-size:26px;line-height:1}.lb-prev{left:12px}.lb-next{right:12px}.lb-caption{position:absolute;bottom:20px;left:60px;right:60px;text-align:center;font-size:14px;color:#d9decf}.zoom-button{display:block;width:100%;padding:0;background:transparent;cursor:zoom-in}.zoom-button:focus-visible{outline-offset:3px}.empty-message{padding:40px;text-align:center;color:var(--muted)}@keyframes turn{to{transform:rotate(360deg)}}
+@media(min-width:1500px){.hero{min-height:740px}.hero-art{height:550px}.hero-portrait{height:450px;width:310px}.project-visual{height:400px}}
+@media(max-width:1050px){.shell{width:calc(100% - 64px)}.nav-note{display:none}.hero{gap:12px;min-height:610px}.hero-art{height:440px}.hero-portrait{height:340px;width:230px;left:20%}.hero-sticker{width:174px}.spark{width:80px;height:80px}.art-caption{left:0;font-size:20px}.project-visual{height:300px;padding:24px}.work-grid{gap:38px 28px}.visual-accounts-1{padding:36px}.project-title{font-size:21px}.filter{padding:8px 14px}.result-count{display:none}.about-section>.shell>.about{grid-template-columns:200px 1fr;gap:38px}.about-section .cols{gap:38px}}
+@media(max-width:700px){html{scroll-padding-top:84px}.shell{width:calc(100% - 40px)}.nav-inner{height:72px}.brand{font-size:24px}.brand span{font-size:14px}.nav-links{gap:22px;font-size:14px}.hero{grid-template-columns:1fr;padding-top:42px;padding-bottom:22px;gap:12px;min-height:0}.hero-label{font-size:11px}.hero h1{font-size:clamp(64px,20vw,112px);margin-top:25px;margin-bottom:16px}.hero-name{font-size:22px;margin-bottom:23px}.hero-role{font-size:26px}.hero-sub{font-size:14px;margin-top:9px;margin-bottom:24px}.hero-art{height:380px;max-width:440px;width:100%;margin:10px auto 0}.portrait-orbit{top:3%;left:17%;width:64%;height:80%}.hero-portrait{height:310px;top:1px;left:25%;width:210px}.hero-sticker{width:136px;right:1%;bottom:13px}.hero-sticker span{font-size:11px}.spark{width:76px;height:76px;top:10px;left:7%}.orbit-note{top:0;font-size:10px}.art-caption{left:6%;bottom:16px;font-size:19px}.hero-bottom{font-size:11px;padding:16px 0}.hero-bottom span:last-child{max-width:145px;text-align:right;font-size:10px}.metrics{gap:15px;padding:28px 0 32px}.metric{padding-left:15px}.metric strong{font-size:34px}.metric strong small{font-size:15px;margin-left:2px}.metric p{font-size:12px;line-height:1.7;margin-top:7px}.works{padding:58px 0 60px}.section-heading{align-items:flex-start;margin-bottom:25px}.section-heading h2{font-size:31px}.section-heading h2 em{display:block;margin-left:0;margin-top:3px}.section-aside{font-size:12px;padding-top:32px;max-width:120px}.filter-row{gap:8px;margin-bottom:28px}.filter{font-size:13px;padding:7px 13px}.work-grid{grid-template-columns:1fr;row-gap:34px}.project-visual{height:310px;padding:30px}.visual-video-0,.visual-video-1{padding:0;height:260px}.visual-accounts-1{padding:34px}.project-title{font-size:22px}.project-caption{padding-top:18px}.project-caption .eyebrow{font-size:11px}.project-note{font-size:13px}.detail-hint{margin-top:9px}.project[open]{padding:14px}.project[open]>summary{grid-template-columns:1fr;gap:22px}.project[open] .project-visual{height:270px}.project[open] .project-title{font-size:25px}.project-body{padding:24px 0 0;margin-top:24px}.project-body h3{font-size:21px}.project-body p{font-size:16px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0}.gallery img{max-height:300px}.project-body .about{grid-template-columns:1fr;gap:22px}.project-body .cols{gap:16px}.project-body .portrait{max-width:140px}.project-body a{font-size:13px}.about-section{padding:55px 0}.about-heading{margin-bottom:30px}.about-heading h2{font-size:44px}.about-heading span{font-size:12px}.about-section>.shell>.about{grid-template-columns:1fr;gap:20px}.about-section .portrait{max-width:160px;max-height:200px;margin:auto}.about-section .about h2{font-size:26px;margin:9px 0 22px}.about-section h3{font-size:19px}.about-section .cols{grid-template-columns:1fr;gap:30px;padding-top:30px;margin-top:30px}.about-section .cols h3{margin-bottom:14px}.contact{padding-top:58px}.contact-top{gap:10px}.contact h2{font-size:28px}.footer-spark{width:58px;height:58px;margin-top:50px;flex-shrink:0}.email{font-size:24px;margin-top:25px}.footer-word{margin:28px 0 22px;font-size:clamp(36px,10vw,56px)}.footer-bottom{padding:22px 0;align-items:flex-end}.footer-bottom span{max-width:170px;font-size:10px}.footer-bottom a{font-size:12px}.lightbox{padding:62px 44px 76px}.lb-prev,.lb-next{width:32px;height:36px}.lb-prev{left:5px}.lb-next{right:5px}.lb-caption{left:38px;right:38px;font-size:12px}}
+[hidden]{display:none!important}
+.inline-player{max-width:960px;margin:22px 0 30px}.video-stage{position:relative;aspect-ratio:16/9;background:#20251f;overflow:hidden;border-radius:4px}.video-start{position:absolute;inset:0;width:100%;height:100%;padding:0;text-align:left;background:#20251f;color:#fff;overflow:hidden}.video-start:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#171c17d9,transparent 65%)}.video-start .video-poster{width:100%;height:100%;max-height:none;object-fit:contain;opacity:.8;transition:opacity .25s}.play-disc{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:76px;height:76px;border:1px solid #ffffffaa;border-radius:50%;background:#f5f5f1e8;color:var(--ink);z-index:1;transition:background .25s,scale .25s}.play-disc svg{width:34px;height:34px;margin-left:3px}.video-start:hover .play-disc{background:#fff;scale:1.06}.video-start:hover .video-poster{opacity:1}.play-label{position:absolute;left:26px;right:26px;bottom:22px;z-index:1;font-size:14px;letter-spacing:.04em}.play-label>span{display:block;font-size:20px;letter-spacing:0;margin-top:5px;line-height:1.5}.video-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#20251f}.video-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;color:var(--muted);font-size:14px;min-height:48px}.video-reset{background:transparent;border:1px solid var(--line);padding:4px 12px;border-radius:22px;flex-shrink:0;font-size:13px}.video-reset:hover{border-color:var(--ink);color:var(--ink)}.video-start:focus-visible{outline-offset:-4px;outline-color:#fff}
+@media(max-width:700px){.play-disc{width:56px;height:56px}.play-disc svg{width:28px;height:28px}.play-label{left:16px;right:16px;bottom:14px;font-size:12px}.play-label>span{font-size:16px}.video-toolbar{font-size:12px;gap:8px}.video-reset{font-size:12px}.inline-player{margin:18px 0 24px}}
 
-/* nav */
-.nav{position:sticky;top:0;z-index:10;background:rgba(251,250,248,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;gap:22px;overflow-x:auto;white-space:nowrap;padding-top:12px;padding-bottom:12px;scrollbar-width:none}
-.nav .wrap::-webkit-scrollbar{display:none}
-.nav a{color:var(--muted);text-decoration:none;font-size:14px;word-break:normal}
-.nav a:hover{color:var(--accent)}
+.subfilter-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:-18px 0 36px;padding:14px 0 14px 20px;border-left:2px solid #b9afc5}.subfilter-label{font-size:13px;color:var(--muted);margin-right:8px}.subfilter{padding:7px 15px;border:1px solid transparent;background:transparent;border-radius:24px;font-size:14px}.subfilter[aria-pressed="true"]{background:var(--lilac);border-color:#b9afc5}.subfilter:hover{border-color:#b9afc5}
+@media(max-width:700px){.metrics{grid-template-columns:1fr;gap:0;padding:10px 0}.metric{display:grid;grid-template-columns:100px minmax(0,1fr);column-gap:18px;padding:20px 0;border-left:0;border-top:1px solid var(--line)}.metric:first-child{padding:20px 0;border-top:0}.metric strong{grid-row:1/3;align-self:start;font-size:38px}.metric h3{font-size:16px;margin:0}.metric p{font-size:13px;margin-top:5px}.subfilter-row{margin:-10px 0 28px;padding:10px 0 10px 12px;gap:4px}.subfilter-label{width:100%;margin:0 0 4px}.subfilter{padding:7px 12px;font-size:13px}}
 
-/* hero */
-.hero{padding:96px 0 80px;text-align:center}
-.hero .en{letter-spacing:.4em;font-size:13px;color:var(--muted)}
-.hero h1{font-size:clamp(34px,8vw,56px);margin:18px 0 8px;font-weight:600;letter-spacing:.06em}
-.hero .sub{font-size:18px;letter-spacing:.3em;color:var(--accent);margin:0}
-.hero .line{width:48px;height:2px;background:var(--accent);margin:36px auto 18px}
-.hero .tag{font-size:12px;letter-spacing:.3em;color:var(--muted)}
-
-/* sections */
-section{padding:56px 0;border-top:1px solid var(--line)}
-h2{font-size:26px;font-weight:600;margin:0 0 32px;letter-spacing:.04em}
-h2 small{display:block;font-size:13px;font-weight:400;color:var(--muted);letter-spacing:.2em;margin-bottom:6px}
-h3{font-size:19px;margin:0 0 12px;font-weight:600}
-h4{font-size:15px;margin:22px 0 6px;color:var(--accent);font-weight:600}
-p{margin:0 0 10px}
-.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 24px;margin-bottom:28px}
-.item ul{margin:0 0 10px;padding-left:1.2em}
-.item li{margin-bottom:4px}
-.nolist{list-style:none;padding-left:0!important}
-.muted{color:var(--muted);font-size:14px}
-
-/* about */
-.about{display:grid;gap:28px}
-.about .portrait{width:180px;border-radius:12px;margin:0 auto}
-.cols{display:grid;gap:28px}
-
-/* gallery */
-.gallery{columns:2;column-gap:10px;margin-top:20px}
-.gallery img{width:100%;margin:0 0 10px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:zoom-in;break-inside:avoid}
-.gallery.big{columns:1}
-.gallery.mid{columns:2}
-
-/* video */
-.video{margin:16px 0 8px}
-.video iframe{display:block;background:#eee;border-radius:10px}
-.video-note{font-size:13px;color:var(--muted);margin:6px 0 0}
-.work{padding:20px 0;border-top:1px dashed var(--line)}
-.work:first-of-type{border-top:0;padding-top:0}
-.work .thumb{border-radius:8px;border:1px solid var(--line);margin:0 0 14px}
-
-/* lightbox */
-#lb{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:50;padding:16px;cursor:zoom-out}
-#lb.on{display:flex}
-#lb img{max-height:94vh;max-width:96vw;object-fit:contain;border-radius:4px}
-
-footer{padding:64px 0 80px;text-align:center;border-top:1px solid var(--line)}
-footer .thanks{color:var(--muted);letter-spacing:.2em;margin-bottom:18px}
-
-@media (min-width:720px){
-  .about{grid-template-columns:200px 1fr;align-items:start}
-  .about .portrait{width:100%}
-  .cols{grid-template-columns:1fr 1fr}
-  .gallery{columns:3}
-  .gallery.big{columns:2}
-  .item{padding:36px 40px}
-  .hero{padding:140px 0 110px}
-}
-</style>
-</head>
-<body>
-
-<nav class="nav"><div class="wrap">
-  <a href="#top">首页</a>
-  <a href="#about">简介</a>
-  <a href="#accounts">新媒体账号搭建</a>
-  <a href="#content">内容策划与运营</a>
-  <a href="#video">视频创作</a>
-  <a href="#design">平面作品</a>
-  <a href="#podcast">播客作品</a>
-  <a href="#contact">联系方式</a>
-</div></nav>
-
-<header class="hero" id="top"><div class="wrap">
-  <div class="en">PORTFOLIO</div>
-  <h1>孙珈瑞 Kerry</h1>
-  <p class="sub">作品集</p>
-  <div class="line"></div>
-  <div class="tag">CREATIVE WORKS COLLECTION</div>
-</div></header>
-
-<!-- 简介 -->
-<section id="about"><div class="wrap">
-  <div class="about">
-    <img class="portrait" src="images/p02-01.jpg" alt="孙珈瑞" loading="lazy">
-    <div>
-      <h2><small>ABOUT</small>内容策划与运营</h2>
-      <h3>央视网—节目制作</h3>
-      <p>参与《节气新生活》和《美术里的中国》栏目创作，独立完成节目后期精切稿，撰写微博推广文案。</p>
-      <h3 style="margin-top:20px">短视频营销公司—短视频编导实习生</h3>
-      <p>在优矩互动负责 3CE、Fanbeauty 美妆品牌千川短视频全流程制作（创意、脚本、拍摄），产出超200条视频，其中近20条高转化视频ROI达1.8+。</p>
-    </div>
-  </div>
-  <div class="cols" style="margin-top:36px">
-    <div>
-      <h3>实践经验与能力</h3>
-      <h4>爆款视频创作经验：</h4>
-      <ul>
-        <li>单条视频播放近1000w/点赞近20w；</li>
-        <li>爆款视频点赞超6w</li>
-      </ul>
-      <h4>视频创作</h4>
-      <p>擅长使用PR等剪辑软件制作人物新闻纪录片/活动记录/街采等主题视频。</p>
-      <h4>平面设计与摄像</h4>
-      <p>擅长使用PS进行制图，能够搭建网站。<br>擅长人物与活动摄影，小红书摄影账号创建半年粉丝近1w。</p>
-    </div>
-    <div>
-      <h3>自我评价：</h3>
-      <h4>创意丰富：</h4>
-      <p>擅长挖掘新颖独特的创意点，能为广告策划和品牌推广提供创新思路，吸引目标受众关注。</p>
-      <h4>沟通对接能力强：</h4>
-      <p>采访超30余位对象，涵盖不同行业。与嘉宾对接流畅，能和甲方团队高效协作。</p>
-      <h4>文字功底强：</h4>
-      <p>具备不同载体文本输出能力（新媒体推广文案，公众号推文，脚本，剧本）</p>
-    </div>
-  </div>
-</div></section>
-
-<!-- 新媒体账号搭建 -->
-<section id="accounts"><div class="wrap">
-  <h2><small>SOCIAL MEDIA ACCOUNTS</small>新媒体账号搭建</h2>
-
-  <article class="item">
-    <h3>新媒体账号搭建—微博</h3>
-    <p>从0至1打造Kpop粉圈微博账号，管理团队运营逾三载。账号专注速递海外资讯，策划抽奖与周年庆典。深谙平台规则，精于账号数据管理与分析。</p>
+.results{padding-top:56px}.results-heading .eyebrow{color:var(--muted);margin-bottom:12px}.results-heading h2{font-size:36px;line-height:1.4;margin-bottom:10px}.results-heading>p:last-child{font-size:14px;color:var(--muted)}.results .metrics{padding-top:30px;padding-bottom:34px}.results-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:30px}.result-card{min-width:0;padding:27px 24px;background:var(--paper)}.result-card>.eyebrow{font-size:11px;color:var(--muted);letter-spacing:.1em;margin-bottom:10px}.result-card h3{font-size:17px;font-weight:500;line-height:1.6}.result-values{display:flex;flex-wrap:wrap;gap:12px 26px;margin:19px 0 15px}.result-values strong{display:block;font:400 34px/1.2 var(--serif);letter-spacing:-.03em}.result-values span{display:block;font-size:13px;color:var(--muted);margin-top:5px}.result-context{font-size:14px;line-height:1.8;color:var(--muted)}
+.about-intro .availability{font-size:14px;color:var(--muted);margin-top:16px}.about-block{margin-top:42px;padding-top:34px;border-top:1px solid #30372e26}.about-block-heading{margin-bottom:25px}.about-block-heading .eyebrow{margin-bottom:10px;color:var(--muted)}.about-block-heading h3{font-size:25px;line-height:1.5;margin-bottom:0}.experience-list{display:grid;gap:27px}.experience{padding-bottom:27px;border-bottom:1px solid #30372e18}.experience:last-child{padding-bottom:0;border-bottom:0}.experience-heading{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:14px}.experience h4{font-size:20px;font-weight:500;margin:0}.experience .experience-role{font-size:14px;color:var(--muted);margin-top:4px}.experience .experience-date{font-size:13px;color:var(--muted);white-space:nowrap;margin:0}.experience>p{margin-top:12px;max-width:1050px}.practice-grid,.education-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;margin-top:18px}.practice-grid h4{margin:0 0 10px;font-size:17px}.education-grid article{padding-left:22px;border-left:1px solid #30372e30}.education-grid .education-date{font-size:13px;color:var(--muted)}.education-grid h4{margin:8px 0 4px;font-size:20px;font-weight:500}.education-grid .education-courses{font-size:14px;color:var(--muted);margin-top:12px}.about-block .tool-note span{font-size:14px;padding:6px 13px}
+@media(max-width:1050px){.results-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.practice-grid,.education-grid{gap:28px}}
+@media(max-width:700px){.results{padding-top:40px}.results-heading h2{font-size:29px}.results .metrics{padding:15px 0}.results-detail-grid{margin-top:24px}.result-card{padding:22px 18px}.result-values{gap:12px 20px;margin:16px 0 12px}.result-values strong{font-size:31px}.about-block{margin-top:32px;padding-top:28px}.about-block-heading h3{font-size:23px}.experience-heading{flex-wrap:wrap;gap:8px}.experience .experience-date{font-size:13px}.practice-grid,.education-grid{grid-template-columns:1fr;gap:26px}.experience>p{font-size:16px}.education-grid article{padding-left:18px}.about-block .tool-note{gap:8px}.about-block .tool-note span{font-size:13px}}
+@media(max-width:500px){.results-detail-grid{grid-template-columns:1fr}.result-card{padding:22px}.result-values{gap:16px 30px}.result-card>.eyebrow{margin-bottom:7px}.result-context{max-width:34em}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+</style></head><body id="top">
+<a class="skip-link" href="#works">跳至作品</a>
+<nav class="nav" aria-label="主导航"><div class="shell nav-inner"><a class="brand" href="#top" aria-label="孙珈瑞 Kerry 首页">孙珈瑞<span>kerry</span></a><span class="nav-note">A COLLECTION OF CREATIVE WORKS</span><div class="nav-links"><a href="#works">作品</a><a href="#about">关于</a><a href="#contact">联系</a></div></div></nav>
+<header class="shell hero"><div class="hero-copy"><p class="eyebrow hero-label">CONTENT, CULTURE & CONNECTION</p><h1>孙珈瑞<span>.</span></h1><p class="hero-name"><span class="english-name">Kerry</span><span class="rule" aria-hidden="true"></span><span class="eyebrow">创意作品集</span></p><p class="hero-role">内容策划与运营<br>影像、文字，以及更多。</p><p class="hero-sub">自媒体运营 / 社媒运营 / 内容策划</p><a class="pill-link" href="#works">浏览我的作品 <span class="mini-plus" aria-hidden="true">+</span></a></div>
+<div class="hero-art"><div class="portrait-orbit" aria-hidden="true"></div><img class="hero-portrait" src="images/p02-01.jpg" alt="孙珈瑞 Kerry" fetchpriority="high"><div class="spark"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 0 56 33 75 7 66 39 93 25 72 47 100 50 72 56 93 75 63 66 75 93 55 72 50 100 44 72 25 93 34 63 7 75 28 54 0 50 29 44 7 25 38 35 25 7 45 30Z" fill="currentColor"/></svg></div><span class="orbit-note">OBSERVE · CREATE · CONNECT</span><a class="hero-sticker" href="#project-podcast-0" aria-label="查看播客作品《数字永生》"><img src="images/p18-01.jpg" alt="The Voice of BU 播客封面"><span>The Voice of BU</span></a><span class="art-caption">A little curiosity,<br>a lot of creativity.</span></div></header>
+<div class="shell hero-bottom"><span>CREATIVE WORKS COLLECTION</span><span>保持观察，持续创作</span></div>
+<main><section class="shell results" aria-labelledby="results-title"><div class="results-heading"><p class="eyebrow">CONTENT THAT MAKES AN IMPACT</p><h2 id="results-title">运营成果</h2><p>账号积累、限期增长与商业转化。</p></div><div class="metrics" aria-label="核心运营成果">
+<div class="metric"><strong>30<small>万+</small></strong><h3>全网累计粉丝</h3><p>多平台自媒体账号<br>从 0 到 1 搭建并独立运营</p></div>
+<div class="metric"><strong>5<small>万+</small></strong><h3>公众号 3 个月净增粉丝</h3><p>中国日报 · 21 世纪智学传媒<br>双语资讯策划与公众号运营</p></div>
+<div class="metric"><strong>1.8+</strong><h3>品牌短视频 ROI</h3><p>20 条高转化视频 · 3CE / Fanbeauty<br>创意、脚本与拍摄全流程制作</p></div></div></section>
+<section class="shell works" id="works" aria-labelledby="works-title"><div class="section-heading"><div><p class="eyebrow">SELECTED WORKS & EXPLORATIONS</p><h2 id="works-title">作品与实践 <em>Selected works.</em></h2></div><p class="section-aside">不同的媒介，同样的好奇心。<br>点击项目，展开完整内容。</p></div><div class="filter-row" role="group" aria-label="按作品类别筛选"><button type="button" class="filter" data-filter="all" id="all-works" aria-pressed="true" aria-controls="work-grid">全部作品</button><button type="button" class="filter" data-filter="accounts" id="accounts" aria-pressed="false" aria-controls="work-grid">自媒体运营</button><button type="button" class="filter" data-filter="content" id="content" aria-pressed="false" aria-controls="work-grid">社媒运营</button><button type="button" class="filter" data-filter="creative" id="creative" aria-pressed="false" aria-controls="work-grid">内容策划</button><span class="result-count" aria-live="polite">14 个项目</span></div><div class="subfilter-row" id="creative-filters" role="group" aria-label="内容策划作品类型" hidden><span class="subfilter-label">内容策划</span><button type="button" class="subfilter" data-subfilter="all" id="all-content" aria-pressed="true" aria-controls="work-grid">全部内容</button><button type="button" class="subfilter" data-subfilter="video" id="video" aria-pressed="false" aria-controls="work-grid">视频创作</button><button type="button" class="subfilter" data-subfilter="design" id="design" aria-pressed="false" aria-controls="work-grid">平面设计</button><button type="button" class="subfilter" data-subfilter="podcast" id="podcast" aria-pressed="false" aria-controls="work-grid">播客作品</button></div><div class="work-grid" id="work-grid"><details class="project sage" data-category="content" id="project-content-0">
+<summary><span class="project-visual visual-content-0"><img src="images/p06-02.jpg" alt="海外社媒运营" loading="lazy" decoding="async"><img class="second-cover" src="images/p06-03.jpg" alt="咖啡品牌 Instagram 内容" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">INSTAGRAM · BRAND CONTENT</span><span class="project-title">海外社媒运营</span><span class="project-note">拍摄 / 调色 / 短视频制作</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
+    <h3>内容策划与运营—咖啡品牌海外社媒</h3>
+    <p>负责品牌Instagram账号内容创作，独立完成咖啡产品、门店场景及活动素材的拍摄、调色与短视频制作，统一品牌视觉风格，打造温馨治愈的社区咖啡品牌形象，助力账号内容运营与品牌曝光。</p>
     <div class="gallery">
-      <img src="images/p03-02.jpg" alt="微博账号主页截图" loading="lazy">
-      <img src="images/p03-03.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p03-04.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p03-05.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p06-04.jpg" alt="Instagram 账号主页截图" loading="lazy" decoding="async">
+      <img src="images/p06-02.jpg" alt="Instagram 内容截图" loading="lazy" decoding="async">
+      <img src="images/p06-03.jpg" alt="Instagram 内容截图" loading="lazy" decoding="async">
     </div>
-  </article>
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project sage" data-category="video" id="project-video-0">
+<summary><span class="project-visual visual-video-0"><img src="images/p14-01.jpg" alt="人物新闻纪录片全流程制作" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">DOCUMENTARY · HUMAN STORIES</span><span class="project-title">人物新闻纪录片全流程制作</span><span class="project-note">3 部人物故事 · 选题 / 采访 / 拍摄 / 剪辑</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
+    <h3>视频创作——人物新闻纪录片</h3>
+    <p>挖掘人文故事，并撰写和执行具体拍摄方案。能够独立完成全流程制作（选题，脚本，联系采访，拍摄，剪辑，）</p>
 
-  <article class="item">
+    <div class="work">
+      <h4>1　老上海修面师在香港</h4>
+      <div class="inline-player" data-bvid="BV13E33zFExn" data-title="老上海修面师在香港">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：老上海修面师在香港"><img class="video-poster" src="images/p14-01.jpg" alt="老上海修面师在香港" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>老上海修面师在香港</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div>
+      <p class="muted"><a href="https://www.bilibili.com/video/BV13E33zFExn/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV13E33zFExn/</a></p>
+      
+      
+    </div>
+    <div class="work">
+      <h4>2　香港最后的批花工艺传承人</h4>
+      <div class="inline-player" data-bvid="BV1CMG5z4EWN" data-title="香港最后的批花工艺传承人">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：香港最后的批花工艺传承人"><img class="video-poster" src="images/p14-03.jpg" alt="香港最后的批花工艺传承人" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>香港最后的批花工艺传承人</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div>
+      <p class="muted"><a href="https://www.bilibili.com/video/BV1CMG5z4EWN/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1CMG5z4EWN/</a></p>
+      
+      
+    </div>
+    <div class="work">
+      <h4>3　珠海情侣的贴纸相创业故事</h4>
+      <div class="inline-player" data-bvid="BV1Qg4y1f7a3" data-title="珠海情侣的贴纸相创业故事">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：珠海情侣的贴纸相创业故事"><img class="video-poster" src="images/p14-05.jpg" alt="珠海情侣的贴纸相创业故事" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>珠海情侣的贴纸相创业故事</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div>
+      <p class="muted"><a href="https://www.bilibili.com/video/BV1Qg4y1f7a3/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Qg4y1f7a3/</a></p>
+      
+      
+    </div>
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project sage" data-category="accounts" id="project-accounts-1">
+<summary><span class="project-visual visual-accounts-1"><img src="images/p04-06.jpg" alt="体育微博账号搭建与运营" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">WEIBO · SPORTS</span><span class="project-title">体育微博账号搭建与运营</span><span class="project-note">9w 粉丝 · 168w 转赞评</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>新媒体账号搭建—微博</h3>
     <h4>账号运营：</h4>
     <p>运营专注于快速传递体育资讯、呈现精彩赛事图频的体育垂直领域微博账号。策划并制作/精选高质量赛事图片集锦、GIF动图、短视频片段。针对重大赛事、热点事件或人物撰写原创体育评论文章。运营一年半积攒9w粉丝，转赞评168w。</p>
     <div class="gallery">
-      <img src="images/p04-06.jpg" alt="体育微博账号主页截图" loading="lazy">
-      <img src="images/p04-01.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p04-02.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p04-03.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p04-04.jpg" alt="微博内容截图" loading="lazy">
-      <img src="images/p04-05.jpg" alt="微博内容截图" loading="lazy">
+      <img src="images/p04-06.jpg" alt="体育微博账号主页截图" loading="lazy" decoding="async">
+      <img src="images/p04-01.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p04-02.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p04-03.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p04-04.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p04-05.jpg" alt="微博内容截图" loading="lazy" decoding="async">
     </div>
-  </article>
-
-  <article class="item">
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project pink" data-category="content" id="project-content-3">
+<summary><span class="project-visual visual-content-3"><img src="images/p09-05.jpg" alt="3CE / Fanbeauty 电商短视频编导" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">3CE / FANBEAUTY · COMMERCE</span><span class="project-title">3CE / Fanbeauty 电商短视频编导</span><span class="project-note">产出 200+ 条视频 · 20 条 ROI 达 1.8+</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
+    <h3>内容策划与运营—电商短视频编导</h3>
+    <h4>核心产出：</h4>
+    <p>服务护肤品牌 Fanbeauty 及彩妆品牌 3CE 的抖音千川短视频矩阵建设。</p>
+    <p>深度理解品牌调性与产品卖点，策划强转化导向的短视频创意，并撰写精准高效的拍摄脚本。</p>
+    <p>成功孵化20条ROI 1.8+的高转化爆款视频，验证了出色的转化率思维与爆款内容打造能力，有效提升直播间GMV。</p>
+    <div class="gallery">
+      <img src="images/p09-01.jpg" alt="短视频画面" loading="lazy" decoding="async">
+      <img src="images/p09-02.jpg" alt="短视频画面" loading="lazy" decoding="async">
+      <img src="images/p09-05.jpg" alt="短视频画面" loading="lazy" decoding="async">
+    </div>
+    <h4>作品案例</h4>
+    <div class="work">
+      <div class="inline-player" data-bvid="BV1aLdZB9E15" data-title="3CE 眼影盘">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：3CE 眼影盘"><img class="video-poster" src="images/p09-05.jpg" alt="3CE 眼影盘" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>3CE 眼影盘</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div><p>【3ce眼影盘-哔哩哔哩】<br><a href="https://b23.tv/6FLSoef" target="_blank" rel="noopener">https://b23.tv/6FLSoef</a></p>
+      
+      
+    </div>
+    <div class="work">
+      <div class="inline-player" data-bvid="BV13LdZB9EoC" data-title="Fanbeauty 套组活动">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：Fanbeauty 套组活动"><img class="video-poster" src="images/p09-02.jpg" alt="Fanbeauty 套组活动" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>Fanbeauty 套组活动</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div><p>【Fanbeauty套组活动-哔哩哔哩】<br><a href="https://b23.tv/Lts9gFj" target="_blank" rel="noopener">https://b23.tv/Lts9gFj</a></p>
+      
+      
+    </div>
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project lilac" data-category="accounts" id="project-accounts-0">
+<summary><span class="project-visual visual-accounts-0"><img src="images/p03-02.jpg" alt="K-pop 微博账号搭建与团队运营" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">WEIBO · COMMUNITY</span><span class="project-title">K-pop 微博账号搭建与团队运营</span><span class="project-note">从 0 到 1 搭建账号 · 团队运营逾三年</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
+    <h3>新媒体账号搭建—微博</h3>
+    <p>从0至1打造Kpop粉圈微博账号，管理团队运营逾三载。账号专注速递海外资讯，策划抽奖与周年庆典。深谙平台规则，精于账号数据管理与分析。</p>
+    <div class="gallery">
+      <img src="images/p03-02.jpg" alt="微博账号主页截图" loading="lazy" decoding="async">
+      <img src="images/p03-03.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p03-04.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+      <img src="images/p03-05.jpg" alt="微博内容截图" loading="lazy" decoding="async">
+    </div>
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project pink" data-category="accounts" id="project-accounts-2">
+<summary><span class="project-visual visual-accounts-2"><img src="images/p05-02.jpg" alt="B 站娱乐二创账号运营" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">BILIBILI · ENTERTAINMENT</span><span class="project-title">B 站娱乐二创账号运营</span><span class="project-note">全年播放 2000 万+ · 转评赞互动 76 万+</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>新媒体账号搭建—b站</h3>
     <h4>账号运营：</h4>
     <p>独立运营B站娱乐领域账号，专注影视/综艺/明星二创视频，全年视频总播放量突破2000万，转评赞互动总量超76万，创作一年粉丝量积攒至4000。</p>
@@ -181,233 +151,144 @@ footer .thanks{color:var(--muted);letter-spacing:.2em;margin-bottom:18px}
       <li>▶️ 网感调优：精准把握B站用户喜好，设计高传播性标题、封面及互动钩子。</li>
     </ul>
     <div class="gallery">
-      <img src="images/p05-02.jpg" alt="B站账号主页截图" loading="lazy">
-      <img src="images/p05-01.jpg" alt="B站创作中心数据截图" loading="lazy">
-      <img src="images/p05-03.jpg" alt="B站视频数据截图" loading="lazy">
-      <img src="images/p05-04.jpg" alt="B站视频数据截图" loading="lazy">
-      <img src="images/p05-05.jpg" alt="B站视频数据截图" loading="lazy">
-      <img src="images/p05-06.jpg" alt="B站视频数据截图" loading="lazy">
-      <img src="images/p05-07.jpg" alt="B站视频数据截图" loading="lazy">
+      <img src="images/p05-02.jpg" alt="B站账号主页截图" loading="lazy" decoding="async">
+      <img src="images/p05-01.jpg" alt="B站创作中心数据截图" loading="lazy" decoding="async">
+      <img src="images/p05-03.jpg" alt="B站视频数据截图" loading="lazy" decoding="async">
+      <img src="images/p05-04.jpg" alt="B站视频数据截图" loading="lazy" decoding="async">
+      <img src="images/p05-05.jpg" alt="B站视频数据截图" loading="lazy" decoding="async">
+      <img src="images/p05-06.jpg" alt="B站视频数据截图" loading="lazy" decoding="async">
+      <img src="images/p05-07.jpg" alt="B站视频数据截图" loading="lazy" decoding="async">
     </div>
-    <!-- 视频占位：B站二创作品，BV号待补充 -->
-    <div class="video">
-      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-    </div>
-  </article>
-</div></section>
-
-<!-- 内容策划与运营 -->
-<section id="content"><div class="wrap">
-  <h2><small>CONTENT PLANNING &amp; OPERATION</small>内容策划与运营</h2>
-
-  <article class="item">
-    <h3>内容策划与运营—咖啡品牌海外社媒</h3>
-    <p>负责品牌Instagram账号内容创作，独立完成咖啡产品、门店场景及活动素材的拍摄、调色与短视频制作，统一品牌视觉风格，打造温馨治愈的社区咖啡品牌形象，助力账号内容运营与品牌曝光。</p>
-    <div class="gallery">
-      <img src="images/p06-04.jpg" alt="Instagram 账号主页截图" loading="lazy">
-      <img src="images/p06-02.jpg" alt="Instagram 内容截图" loading="lazy">
-      <img src="images/p06-03.jpg" alt="Instagram 内容截图" loading="lazy">
-    </div>
-  </article>
-
-  <article class="item">
+    
+    
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project lilac" data-category="content" id="project-content-1">
+<summary><span class="project-visual visual-content-1"><img src="images/p07-01.jpg" alt="抖音热点短视频策划与制作" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">DOUYIN · CREATIVE CONTENT</span><span class="project-title">抖音热点短视频策划与制作</span><span class="project-note">单条播放 827 万 · 点赞 18 万</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>内容策划与运营—抖音爆款</h3>
     <p>擅长敏锐洞察，热点嗅觉，引爆流量<br>能够精准捕捉热点并及时响应，通过高效的内容策划与制作，将热点转化成具有强传播力，高互动性的创意视频，</p>
-    <div class="cols" style="margin-top:18px">
+    <div class="cols">
       <div>
         <h4>#斯琴高娃模仿#</h4>
         <p>点赞18w<br>播放量827w</p>
-        <img src="images/p07-03.jpg" alt="数据截图" loading="lazy" style="border:1px solid var(--line);border-radius:8px">
+        <img src="images/p07-03.jpg" alt="数据截图" loading="lazy" decoding="async">
       </div>
       <div>
         <h4>#晚晚大鹏展翅#</h4>
         <p>点赞1.5w<br>播放量168w</p>
-        <img src="images/p07-04.jpg" alt="数据截图" loading="lazy" style="border:1px solid var(--line);border-radius:8px">
+        <img src="images/p07-04.jpg" alt="数据截图" loading="lazy" decoding="async">
       </div>
     </div>
     <div class="gallery mid">
-      <img src="images/p07-01.jpg" alt="抖音视频截图" loading="lazy">
-      <img src="images/p07-02.jpg" alt="抖音视频截图" loading="lazy">
+      <img src="images/p07-01.jpg" alt="抖音视频截图" loading="lazy" decoding="async">
+      <img src="images/p07-02.jpg" alt="抖音视频截图" loading="lazy" decoding="async">
     </div>
-    <!-- 视频占位：抖音爆款，BV号待补充 -->
-    <div class="video">
-      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-    </div>
-  </article>
-
-  <article class="item">
+    
+    
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project pink" data-category="content" id="project-content-2">
+<summary><span class="project-visual visual-content-2"><img src="images/p08-05.jpg" alt="小红书摄影与爆款内容运营" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">XIAOHONGSHU · LIFESTYLE</span><span class="project-title">小红书摄影与爆款内容运营</span><span class="project-note">饭制作品获赞 6.3 万 · 摄影作品入选「热点薯」</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>内容策划与运营—小红书爆款</h3>
     <h4>将个人爱好淬炼成爆款作品</h4>
     <p>演唱会体验连出两条爆款视频。饭制产出获赞6.3w，浏览量登顶演唱会系列饭制产出。从个人经历提炼经验，引发情绪共鸣。浏览量超8w</p>
-    <p>捕捉赛场高光时刻，赛场抢拍作品获小红书官方认证，入选“热点薯”当周精选。（点赞2k➕）</p>
+    <p>捕捉赛场高光时刻，赛场抢拍作品获小红书官方认证，入选“热点薯”当周精选。（自然流互动量3000+）</p>
     <div class="gallery">
-      <img src="images/p08-04.jpg" alt="小红书笔记截图" loading="lazy">
-      <img src="images/p08-05.jpg" alt="小红书笔记截图" loading="lazy">
-      <img src="images/p08-01.jpg" alt="小红书笔记截图" loading="lazy">
-      <img src="images/p08-03.jpg" alt="小红书“热点薯”截图" loading="lazy">
+      <img src="images/p08-04.jpg" alt="小红书笔记截图" loading="lazy" decoding="async">
+      <img src="images/p08-05.jpg" alt="小红书笔记截图" loading="lazy" decoding="async">
+      <img src="images/p08-01.jpg" alt="小红书笔记截图" loading="lazy" decoding="async">
+      <img src="images/p08-03.jpg" alt="小红书“热点薯”截图" loading="lazy" decoding="async">
     </div>
-    <p class="muted" style="margin-top:14px">作品链接：<br>
-      <a href="http://xhslink.com/m/1WUCVM3YWJW" target="_blank" rel="noopener">http://xhslink.com/m/1WUCVM3YWJW</a><br>
-      <a href="http://xhslink.com/m/9n8R9BfBV8V" target="_blank" rel="noopener">http://xhslink.com/m/9n8R9BfBV8V</a><br>
-      <a href="http://xhslink.com/m/8sVUNKMtbkt" target="_blank" rel="noopener">http://xhslink.com/m/8sVUNKMtbkt</a>
+    <p class="muted">作品链接：<br>
+      <a href="http://xhslink.com/o/5GgK2wM0Yvc" target="_blank" rel="noopener">http://xhslink.com/o/5GgK2wM0Yvc</a><br>
+      <a href="https://xhslink.cn/o/AmqvWT4IPHp" target="_blank" rel="noopener">https://xhslink.cn/o/AmqvWT4IPHp</a><br>
+      <a href="https://xhslink.cn/o/49hwablt8rv" target="_blank" rel="noopener">https://xhslink.cn/o/49hwablt8rv</a>
     </p>
-  </article>
-
-  <article class="item">
-    <h3>内容策划与运营—电商短视频编导</h3>
-    <h4>核心产出：</h4>
-    <p>服务护肤品牌 Fanbeauty 及彩妆品牌 3CE 的抖音千川短视频矩阵建设。</p>
-    <p>深度理解品牌调性与产品卖点，策划强转化导向的短视频创意，并撰写精准高效的拍摄脚本。</p>
-    <p>成功孵化近20条ROI 1.8+的高转化爆款视频，验证了出色的转化率思维与爆款内容打造能力，有效提升直播间GMV。</p>
-    <div class="gallery">
-      <img src="images/p09-01.jpg" alt="短视频画面" loading="lazy">
-      <img src="images/p09-02.jpg" alt="短视频画面" loading="lazy">
-      <img src="images/p09-05.jpg" alt="短视频画面" loading="lazy">
-    </div>
-    <h4>作品案例</h4>
-    <div class="work">
-      <p>【3ce眼影盘-哔哩哔哩】<br><a href="https://b23.tv/6FLSoef" target="_blank" rel="noopener">https://b23.tv/6FLSoef</a></p>
-      <!-- 视频占位：3ce眼影盘，BV号待补充（PDF 原文为 b23.tv/6FLSoef 短链） -->
-      <div class="video">
-        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-      </div>
-    </div>
-    <div class="work">
-      <p>【Fanbeauty套组活动-哔哩哔哩】<br><a href="https://b23.tv/Lts9gFj" target="_blank" rel="noopener">https://b23.tv/Lts9gFj</a></p>
-      <!-- 视频占位：Fanbeauty套组活动，BV号待补充（PDF 原文为 b23.tv/Lts9gFj 短链） -->
-      <div class="video">
-        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-      </div>
-    </div>
-  </article>
-
-  <article class="item">
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project sage" data-category="content" id="project-content-4">
+<summary><span class="project-visual visual-content-4"><img src="images/p10-05.jpg" alt="央视栏目微博宣发文案" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">CCTV · COPYWRITING</span><span class="project-title">央视栏目微博宣发文案</span><span class="project-note">栏目宣发与短视频配套文案 · 单条微博平均阅读约 1.5 万</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>内容策划与运营—微博文案</h3>
     <p>为央视《美术里的中国》《节气新生活》栏目撰写微博文案，深度理解栏目内涵与目标受众，创作兼具文化深度与网络热度的微博文案，有效驱动用户关注、转发与讨论。</p>
     <div class="gallery">
-      <img src="images/p10-02.jpg" alt="微博文案截图" loading="lazy">
-      <img src="images/p10-03.jpg" alt="微博文案截图" loading="lazy">
-      <img src="images/p10-04.jpg" alt="微博文案截图" loading="lazy">
-      <img src="images/p10-05.jpg" alt="微博文案截图" loading="lazy">
-      <img src="images/p10-06.jpg" alt="微博文案截图" loading="lazy">
+      <img src="images/p10-02.jpg" alt="微博文案截图" loading="lazy" decoding="async">
+      <img src="images/p10-03.jpg" alt="微博文案截图" loading="lazy" decoding="async">
+      <img src="images/p10-04.jpg" alt="微博文案截图" loading="lazy" decoding="async">
+      <img src="images/p10-05.jpg" alt="微博文案截图" loading="lazy" decoding="async">
+      <img src="images/p10-06.jpg" alt="微博文案截图" loading="lazy" decoding="async">
     </div>
-  </article>
-
-  <article class="item">
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project lilac" data-category="content" id="project-content-5">
+<summary><span class="project-visual visual-content-5"><img src="images/p11-01.jpg" alt="央视节目精切稿策划与撰写" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">CCTV · EDITORIAL</span><span class="project-title">央视节目精切稿策划与撰写</span><span class="project-note">长视频节目解构 · 精切稿独立撰写</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>内容策划与运营—精切稿</h3>
     <p>对长视频节目进行深度解构与提炼，撰写精准捕捉节目精髓的精切稿件，显著提升新媒体端节目内容的曝光与转化。</p>
     <div class="gallery">
-      <img src="images/p11-01.jpg" alt="节目封面" loading="lazy">
-      <img src="images/p11-02.jpg" alt="精切稿截图" loading="lazy">
-      <img src="images/p11-03.jpg" alt="精切稿截图" loading="lazy">
-      <img src="images/p11-04.jpg" alt="精切稿截图" loading="lazy">
+      <img src="images/p11-01.jpg" alt="节目封面" loading="lazy" decoding="async">
+      <img src="images/p11-02.jpg" alt="精切稿截图" loading="lazy" decoding="async">
+      <img src="images/p11-03.jpg" alt="精切稿截图" loading="lazy" decoding="async">
+      <img src="images/p11-04.jpg" alt="精切稿截图" loading="lazy" decoding="async">
     </div>
-  </article>
-
-  <article class="item">
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project blue" data-category="content" id="project-content-6">
+<summary><span class="project-visual visual-content-6"><img src="images/p17-03.jpg" alt="《岛屿视界》公众号策划与运营" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">WECHAT · EDITORIAL DESIGN</span><span class="project-title">《岛屿视界》公众号策划与运营</span><span class="project-note">单篇最高阅读 5000+ · 参与特刊排版</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>内容策划与运营——校园公众号</h3>
     <h4>核心业务：</h4>
     <p>管理校内公众号《岛屿视界》的运营策划，涵盖选题策划、内容创作、编辑发布及用户互动。系统性选题开发。</p>
     <h4>部分选题策划展示</h4>
     <p>（在保证长文质量的基础上能保持月更，高峰期能保证公众号月产2篇1w字➕的作品。单篇最高阅读5000+）</p>
     <div class="gallery">
-      <img src="images/p12-03.jpg" alt="公众号主页截图" loading="lazy">
-      <img src="images/p12-04.jpg" alt="公众号选题列表截图" loading="lazy">
-      <img src="images/p12-05.jpg" alt="公众号选题列表截图" loading="lazy">
-      <img src="images/p12-01.jpg" alt="公众号文章截图" loading="lazy">
-      <img src="images/p12-02.jpg" alt="公众号文章截图" loading="lazy">
+      <img src="images/p12-03.jpg" alt="公众号主页截图" loading="lazy" decoding="async">
+      <img src="images/p12-04.jpg" alt="公众号选题列表截图" loading="lazy" decoding="async">
+      <img src="images/p12-05.jpg" alt="公众号选题列表截图" loading="lazy" decoding="async">
+      <img src="images/p12-01.jpg" alt="公众号文章截图" loading="lazy" decoding="async">
+      <img src="images/p12-02.jpg" alt="公众号文章截图" loading="lazy" decoding="async">
     </div>
-    <h4 style="margin-top:30px">内容策划与运营——校园公众号</h4>
+    <h4>内容策划与运营——校园公众号</h4>
     <p>参与公众号特刊的排版制作</p>
     <h4>成果展示</h4>
     <div class="gallery">
-      <img src="images/p13-01.jpg" alt="公众号特刊成果" loading="lazy">
-      <img src="images/p13-02.jpg" alt="公众号特刊成果" loading="lazy">
-      <img src="images/p13-03.jpg" alt="公众号特刊成果" loading="lazy">
-      <img src="images/p13-04.jpg" alt="公众号特刊成果" loading="lazy">
+      <img src="images/p13-01.jpg" alt="公众号特刊成果" loading="lazy" decoding="async">
+      <img src="images/p13-02.jpg" alt="公众号特刊成果" loading="lazy" decoding="async">
+      <img src="images/p13-03.jpg" alt="公众号特刊成果" loading="lazy" decoding="async">
+      <img src="images/p13-04.jpg" alt="公众号特刊成果" loading="lazy" decoding="async">
     </div>
-  </article>
-</div></section>
-
-<!-- 视频创作 -->
-<section id="video"><div class="wrap">
-  <h2><small>VIDEO WORKS</small>视频创作</h2>
-
-  <article class="item">
-    <h3>视频创作——人物新闻纪录片</h3>
-    <p>挖掘人文故事，并撰写和执行具体拍摄方案。能够独立完成全流程制作（选题，脚本，联系采访，拍摄，剪辑，）</p>
-
-    <div class="work">
-      <h4>1　老上海修面师在香港</h4>
-      <img class="thumb" src="images/p14-01.jpg" alt="老上海修面师在香港" loading="lazy" style="max-width:420px">
-      <p class="muted"><a href="https://www.bilibili.com/video/BV13E33zFExn/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV13E33zFExn/</a></p>
-      <!-- 视频占位：老上海修面师在香港，BV号待补充（PDF 中链接为 BV13E33zFExn） -->
-      <div class="video">
-        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-      </div>
-    </div>
-    <div class="work">
-      <h4>2　香港最后的批花工艺传承人</h4>
-      <img class="thumb" src="images/p14-03.jpg" alt="香港最后的批花工艺传承人" loading="lazy" style="max-width:420px">
-      <p class="muted"><a href="https://www.bilibili.com/video/BV1CMG5z4EWN/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1CMG5z4EWN/</a></p>
-      <!-- 视频占位：香港最后的批花工艺传承人，BV号待补充（PDF 中链接为 BV1CMG5z4EWN） -->
-      <div class="video">
-        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-      </div>
-    </div>
-    <div class="work">
-      <h4>3　珠海情侣的贴纸相创业故事</h4>
-      <img class="thumb" src="images/p14-05.jpg" alt="珠海情侣的贴纸相创业故事" loading="lazy" style="max-width:420px">
-      <p class="muted"><a href="https://www.bilibili.com/video/BV1Qg4y1f7a3/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Qg4y1f7a3/</a></p>
-      <!-- 视频占位：珠海情侣的贴纸相创业故事，BV号待补充（PDF 中链接为 BV1Qg4y1f7a3） -->
-      <div class="video">
-        <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-      </div>
-    </div>
-  </article>
-
-  <article class="item">
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project lilac" data-category="video" id="project-video-1">
+<summary><span class="project-visual visual-video-1"><img src="images/p15-02.jpg" alt="活动影像拍摄与剪辑" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">EVENTS · MOVING IMAGE</span><span class="project-title">活动影像拍摄与剪辑</span><span class="project-note">互动媒体毕业展等活动记录</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <h3>视频创作——活动记录</h3>
     <div class="gallery">
-      <img src="images/p15-01.jpg" alt="视频回顾 DONE with Started 互动媒体毕业展" loading="lazy">
-      <img src="images/p15-02.jpg" alt="活动记录画面合集" loading="lazy">
-      <img src="images/p16-01.jpg" alt="活动记录画面" loading="lazy">
+      <img src="images/p15-01.jpg" alt="视频回顾 DONE with Started 互动媒体毕业展" loading="lazy" decoding="async">
+      <img src="images/p15-02.jpg" alt="活动记录画面合集" loading="lazy" decoding="async">
+      <img src="images/p16-01.jpg" alt="活动记录画面" loading="lazy" decoding="async">
     </div>
-    <p class="muted" style="margin-top:12px"><a href="http://xhslink.com/m/4rWJ7et1l7p" target="_blank" rel="noopener">http://xhslink.com/m/4rWJ7et1l7p</a></p>
-    <!-- 视频占位：活动记录 1，BV号待补充 -->
-    <div class="video">
-      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-    </div>
-    <!-- 视频占位：活动记录 2，BV号待补充 -->
-    <div class="video">
-      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-    </div>
-  </article>
-</div></section>
-
-<!-- 平面作品 -->
-<section id="design"><div class="wrap">
-  <h2><small>GRAPHIC DESIGN</small>平面作品</h2>
-  <article class="item">
+    <p class="muted"><a href="https://xhslink.cn/o/FRsKoDTqyo" target="_blank" rel="noopener">https://xhslink.cn/o/FRsKoDTqyo</a></p>
+    
+    
+    
+    
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project blue" data-category="design" id="project-design-0">
+<summary><span class="project-visual visual-design-0"><img src="images/p17-05.jpg" alt="个人网站与公众号视觉设计" loading="lazy" decoding="async"><img class="second-cover" src="images/p17-03.jpg" alt="岛屿视界平面设计作品" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">GRAPHIC · VISUAL DESIGN</span><span class="project-title">个人网站与公众号视觉设计</span><span class="project-note">网站页面 / 公众号特刊 / 平面作品</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <p>熟练掌握PS/PR/Procreate进行平面创作</p>
     <div class="gallery">
-      <img src="images/p17-01.jpg" alt="个人网站页面" loading="lazy">
-      <img src="images/p17-02.jpg" alt="个人网站页面" loading="lazy">
-      <img src="images/p17-03.jpg" alt="平面设计作品" loading="lazy">
-      <img src="images/p17-04.jpg" alt="平面设计作品" loading="lazy">
-      <img src="images/p17-05.jpg" alt="平面设计作品" loading="lazy">
-      <img src="images/p17-06.jpg" alt="平面设计作品" loading="lazy">
+      <img src="images/p17-01.jpg" alt="个人网站页面" loading="lazy" decoding="async">
+      <img src="images/p17-02.jpg" alt="个人网站页面" loading="lazy" decoding="async">
+      <img src="images/p17-03.jpg" alt="平面设计作品" loading="lazy" decoding="async">
+      <img src="images/p17-04.jpg" alt="平面设计作品" loading="lazy" decoding="async">
+      <img src="images/p17-05.jpg" alt="平面设计作品" loading="lazy" decoding="async">
+      <img src="images/p17-06.jpg" alt="平面设计作品" loading="lazy" decoding="async">
     </div>
-    <p class="muted" style="margin-top:12px"><a href="https://lorettaliu0114.wixsite.com/master-ng" target="_blank" rel="noopener">https://lorettaliu0114.wixsite.com/master-ng</a></p>
-  </article>
-</div></section>
-
-<!-- 播客作品 -->
-<section id="podcast"><div class="wrap">
-  <h2><small>PODCAST</small>播客作品</h2>
-  <article class="item">
+    <p class="muted"><a href="https://lorettaliu0114.wixsite.com/master-ng" target="_blank" rel="noopener">https://lorettaliu0114.wixsite.com/master-ng</a></p>
+  <button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details><details class="project lilac" data-category="podcast" id="project-podcast-0">
+<summary><span class="project-visual visual-podcast-0"><img src="images/p18-01.jpg" alt="播客作品｜《数字永生》" loading="lazy" decoding="async"><span class="open-mark" aria-hidden="true">+</span></span>
+<span class="project-caption"><span class="eyebrow">PODCAST · THE VOICE OF BU</span><span class="project-title">播客作品｜《数字永生》</span><span class="project-note">探讨 AI 与虚拟技术背后的机遇与危机</span><span class="detail-hint">查看项目</span></span></summary>
+<div class="project-body">
     <div class="about">
-      <img class="portrait" src="images/p18-01.jpg" alt="The Voice of BU" loading="lazy">
+      <img class="portrait" src="images/p18-01.jpg" alt="The Voice of BU" loading="lazy" decoding="async">
       <div>
         <h3>《数字永生》：奇迹背后的机遇与危机</h3>
         <p class="muted">Digital Afterlife: The Opportunities and Crises behind the 'Miracle'</p>
@@ -415,30 +296,130 @@ footer .thanks{color:var(--muted);letter-spacing:.2em;margin-bottom:18px}
         <p class="muted"><a href="https://www.bilibili.com/video/BV1HNwvz9ErZ/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1HNwvz9ErZ/</a></p>
       </div>
     </div>
-    <!-- 视频占位：播客《数字永生》，BV号待补充（PDF 中链接为 BV1HNwvz9ErZ） -->
-    <div class="video">
-      <iframe src="//player.bilibili.com/player.html?bvid=&page=1&autoplay=0" allowfullscreen style="width:100%;aspect-ratio:16/9;border:0"></iframe>
-    </div>
-  </article>
-</div></section>
-
-<footer id="contact"><div class="wrap">
-  <div class="thanks">感谢您的耐心阅读</div>
-  <p>邮箱：<a href="mailto:sunkerry16@163.com">sunkerry16@163.com</a></p>
-</div></footer>
-
-<div id="lb" aria-hidden="true"><img alt=""></div>
-
+    
+    
+  <div class="inline-player" data-bvid="BV1HNwvz9ErZ" data-title="《数字永生》：奇迹背后的机遇与危机">
+<div class="video-stage"><button class="video-start" type="button" aria-label="播放视频：《数字永生》：奇迹背后的机遇与危机"><img class="video-poster" src="images/p18-01.jpg" alt="《数字永生》：奇迹背后的机遇与危机" loading="lazy" decoding="async"><span class="play-disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span><span class="play-label">点击播放<span>《数字永生》：奇迹背后的机遇与危机</span></span></button></div>
+<div class="video-toolbar"><span class="video-status" aria-live="polite">在本页播放 · 支持全屏</span><button class="video-reset" type="button" hidden>停止播放</button></div></div><button class="close-project" type="button">收起项目 <span aria-hidden="true">−</span></button></div></details></div></section>
+<section class="about-section" id="about" aria-label="个人简介"><div class="shell"><div class="about-heading"><h2>Behind the work.</h2><span>关于创作，也关于我</span></div>
+<div class="about about-intro">
+ <img class="portrait" src="images/p02-01.jpg" alt="孙珈瑞" loading="lazy" decoding="async">
+ <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>新媒体运营 / 视频策划</h2>
+ <p>香港浸会大学国际新闻硕士，澳门科技大学传播学本科。围绕体育资讯、娱乐二创与摄影开展多平台自媒体运营，具备图文、短视频、节目稿件与品牌宣发的内容创作经验。</p>
+ <p>从用户洞察与选题策划出发，完成内容生产、风险自查、数据监控与复盘优化，让创意与实际传播效果相连接。</p>
+ <p class="availability">求职方向：新媒体运营 / 视频策划 · 随时到岗</p></div>
+</div>
+<section class="about-block" aria-labelledby="experience-title"><div class="about-block-heading"><p class="eyebrow">PROFESSIONAL EXPERIENCE</p><h3 id="experience-title">实习经历</h3></div>
+ <div class="experience-list">
+ <article class="experience"><div class="experience-heading"><div><h4>中国日报</h4><p class="experience-role">新媒体运营</p></div><p class="experience-date">2025.08 — 2026.01</p></div>
+ <p>负责 21 世纪智学传媒微信公众号运营，面向中外用户策划双语资讯内容，跟进时事热点开展内容策划，完成内容风险校验。3 个月内账号粉丝净增长 5 万+。</p>
+ <p>主导公众号推文内容策划，整合梳理英语学习资料，完成音视频剪辑，提升内容丰富度与易读性。累计创作推文超 100 篇，篇均阅读量超 2000。</p></article>
+ <article class="experience"><div class="experience-heading"><div><h4>优矩互动</h4><p class="experience-role">电商运营 / 短视频编导</p></div><p class="experience-date">2023.06 — 2023.08</p></div>
+ <p>协助对接护肤品牌 Fanbeauty 及彩妆品牌 3CE，根据品牌定位与客户营销需求输出品牌传播方案；通过抖音千川平台建设品牌短视频矩阵，拆解产品卖点与目标客群画像，独立输出短视频脚本。</p>
+ <p>负责品牌视频创意、脚本、拍摄等全流程制作，累计产出 200+ 条视频，成功孵化 20 条 ROI 达 1.8+ 的高转化视频，为直播间引流并促进产品销售。</p>
+ <p>结合直播间实时表现、销售数据及用户反馈开展专项复盘，独立制定直播推广优化方案，明确脚本创作方向、流量引流策略及产品卖点输出逻辑。</p></article>
+ <article class="experience"><div class="experience-heading"><div><h4>央视网</h4><p class="experience-role">内容制作</p></div><p class="experience-date">2022.07 — 2022.09</p></div>
+ <p>参与《美术里的中国》《节气新生活》栏目创作，独立制作录制稿，参与节目现场录制，独立完成后期精切稿撰写。</p>
+ <p>根据栏目定位、受众偏好、微博平台特性及实时热点，独立完成活动宣发与短视频配套文案。平均单条微博阅读量约 1.5 万，提升栏目传播度。</p></article>
+ </div>
+</section>
+<section class="about-block" aria-labelledby="practice-title"><div class="about-block-heading"><p class="eyebrow">INDEPENDENT PRACTICE · 2021.09 至今</p><h3 id="practice-title">多平台自媒体运营</h3></div>
+ <p>从 0 到 1 搭建抖音、微博、B 站、小红书 4 大平台的体育资讯、娱乐二创、摄影 3 类垂直账号，独立负责选题研判、内容生产、风险自查与数据监控全流程。全网粉丝超 30 万，转评赞累计 530 万。</p>
+ <div class="practice-grid"><div><h4>用户洞察与内容生产</h4><p>结合用户需求与平台特性策划创意选题，独立完成图文、短视频全流程创作。抖音爆款作品浏览量破 800 万、点赞 18 万；小红书体育摄影作品获官方认证，入选「热点薯」精选，自然流互动量破 3000。</p></div>
+ <div><h4>活动策划与数据复盘</h4><p>策划抽奖、明星周年庆典等营销活动超 10 场，完成配套短视频脚本与宣传文案，场均曝光超 50 万，带动粉丝增长超 5 万。整合社媒数据开展异动分析，持续优化内容创作与运营策略。</p></div></div>
+</section>
+<section class="about-block" aria-labelledby="education-title"><div class="about-block-heading"><p class="eyebrow">EDUCATION</p><h3 id="education-title">教育背景</h3></div>
+ <div class="education-grid"><article><p class="education-date">2024.09 — 2025.11</p><h4>香港浸会大学</h4><p>国际新闻 · 硕士</p><p class="education-courses">新闻专题写作 / 国际广告 / 多媒体新闻 / 数据新闻</p></article>
+ <article><p class="education-date">2020.09 — 2024.06</p><h4>澳门科技大学</h4><p>传播学 · 本科</p><p class="education-courses">媒介与传播 / 公共关系 / 广告学 / 新媒体传播 / 品牌研究 / 媒介与流行文化</p></article></div>
+</section>
+<section class="about-block" aria-labelledby="skills-title"><div class="about-block-heading"><p class="eyebrow">SKILLS & STRENGTHS</p><h3 id="skills-title">实践能力与创作工具</h3></div>
+ <div class="practice-grid"><div><h4>视频、平面与摄影</h4><p>擅长使用 PR 制作人物新闻纪录片、活动记录与街采等主题视频，使用 PS 进行制图与网站页面创作。擅长人物与活动摄影，小红书摄影账号创建半年粉丝近 1 万。</p></div>
+ <div><h4>创意、沟通与文字表达</h4><p>擅长挖掘新颖独特的创意点，为广告策划和品牌推广提供思路。采访超 30 位不同行业对象，能与嘉宾、客户团队高效协作；具备新媒体推广文案、公众号推文、脚本与剧本等多种文本输出能力。</p></div></div>
+ <div class="tool-note" aria-label="职业技能"><span>Photoshop · 熟练</span><span>Premiere Pro · 熟练</span><span>MS Office · 熟练</span><span>SPSS · 掌握</span><span>AI 工具 · 熟练</span><span>英语 · 雅思 6.5</span><span>Procreate</span><span>Photography</span></div>
+</section></div></section>
+</main><footer class="contact" id="contact"><div class="shell"><div class="contact-top"><div><p class="eyebrow">LET’S MAKE SOMETHING GOOD.</p><h2>感谢您的耐心阅读。<br>期待下一次创意的相遇。</h2><p class="contact-address"><span class="address-label">邮箱：</span><a class="email" href="mailto:sunkerry16@163.com">sunkerry16@163.com</a></p><button class="copy-email" type="button" aria-live="polite">复制邮箱</button></div><div class="footer-spark"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 0 56 33 75 7 66 39 93 25 72 47 100 50 72 56 93 75 63 66 75 93 55 72 50 100 44 72 25 93 34 63 7 75 28 54 0 50 29 44 7 25 38 35 25 7 45 30Z" fill="currentColor"/></svg></div></div><div class="footer-word" aria-hidden="true">Stay curious.</div><div class="footer-bottom"><span>孙珈瑞 KERRY · CREATIVE WORKS COLLECTION</span><a href="#top">回到顶部 +</a></div></div></footer>
+<dialog class="lightbox" aria-label="作品图片预览"><button class="lb-close" type="button" aria-label="关闭图片预览">×</button><button class="lb-prev" type="button" aria-label="上一张图片">‹</button><div class="lightbox-inner"><img alt=""></div><button class="lb-next" type="button" aria-label="下一张图片">›</button><p class="lb-caption" aria-live="polite"></p></dialog>
 <script>
-(function(){
-  var lb=document.getElementById('lb'),big=lb.querySelector('img');
-  document.addEventListener('click',function(e){
-    var t=e.target;
-    if(t.tagName==='IMG'&&t.closest('.gallery')){big.src=t.src;lb.classList.add('on');}
-    else if(lb.classList.contains('on')){lb.classList.remove('on');}
-  });
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on');});
+(()=>{
+'use strict';
+function stopPlayers(scope=document){
+ scope.querySelectorAll('.inline-player').forEach(panel=>{
+  clearTimeout(panel.playerTimer);
+  panel.querySelector('iframe')?.remove();
+  panel.querySelector('.video-start').hidden=false;
+  panel.querySelector('.video-reset').hidden=true;
+  panel.querySelector('.video-status').textContent='在本页播放 · 支持全屏';
+ });
+}
+document.querySelectorAll('.inline-player').forEach(panel=>{
+ const start=panel.querySelector('.video-start'),status=panel.querySelector('.video-status'),reset=panel.querySelector('.video-reset');
+ start.addEventListener('click',()=>{
+  stopPlayers();
+  const frame=document.createElement('iframe');
+  frame.title=panel.dataset.title+' · B 站视频播放器';
+  frame.allow='autoplay; fullscreen; picture-in-picture; encrypted-media';
+  frame.allowFullscreen=true;
+  frame.referrerPolicy='strict-origin-when-cross-origin';
+  frame.src='https://player.bilibili.com/player.html?bvid='+encodeURIComponent(panel.dataset.bvid)+'&p=1&autoplay=1&muted=0&danmaku=0';
+  frame.addEventListener('load',()=>{clearTimeout(panel.playerTimer);status.textContent='B 站播放器 · 支持全屏';});
+  frame.addEventListener('error',()=>{clearTimeout(panel.playerTimer);status.textContent='加载失败，可停止后重试或使用原链接';});
+  start.hidden=true;reset.hidden=false;status.textContent='正在加载视频…';
+  panel.querySelector('.video-stage').append(frame);
+  frame.focus();
+  panel.playerTimer=setTimeout(()=>{status.textContent='加载较慢，可停止后重试或使用原链接';},15000);
+ });
+ reset.addEventListener('click',()=>{stopPlayers(panel.parentElement);start.focus({preventScroll:true});});
+});
+const projects=[...document.querySelectorAll('.project')];
+projects.forEach(project=>project.addEventListener('toggle',()=>{if(!project.open)stopPlayers(project);}));
+const filters=[...document.querySelectorAll('[data-filter]')];
+const subfilters=[...document.querySelectorAll('[data-subfilter]')];
+const subfilterRow=document.querySelector('.subfilter-row');
+const creativeCategories=['video','design','podcast'];
+const count=document.querySelector('.result-count');
+function filter(category,subtype='all'){
+ if(creativeCategories.includes(category)){subtype=category;category='creative';}
+ if(!filters.some(b=>b.dataset.filter===category)) category='all';
+ if(!subfilters.some(b=>b.dataset.subfilter===subtype)) subtype='all';
+ filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===category)));
+ subfilterRow.hidden=category!=='creative';
+ subfilters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.subfilter===subtype)));
+ projects.forEach(p=>{
+  const match=category==='all'||(category==='creative'?(creativeCategories.includes(p.dataset.category)&&(subtype==='all'||p.dataset.category===subtype)):p.dataset.category===category);
+  p.hidden=!match;if(p.hidden)stopPlayers(p);
+ });
+ count.textContent=projects.filter(p=>!p.hidden).length+' 个项目';
+}
+filters.forEach(b=>b.addEventListener('click',()=>filter(b.dataset.filter)));
+subfilters.forEach(b=>b.addEventListener('click',()=>filter('creative',b.dataset.subfilter)));
+function followHash(){
+ const id=decodeURIComponent(location.hash.slice(1));
+ const project=projects.find(p=>p.id===id);
+ if(project){filter('all');project.open=true;requestAnimationFrame(()=>project.scrollIntoView({block:'start'}));}
+ else if(filters.some(b=>b.dataset.filter===id)||creativeCategories.includes(id)) filter(id);
+}
+window.addEventListener('hashchange',followHash);followHash();
+document.querySelectorAll('.close-project').forEach(b=>b.addEventListener('click',()=>{const p=b.closest('.project');p.open=false;p.querySelector('summary').focus({preventScroll:true});p.scrollIntoView({block:'start'});}));
+const dialog=document.querySelector('.lightbox'),large=dialog.querySelector('img'),caption=dialog.querySelector('.lb-caption');
+let gallery=[],current=0,trigger=null;
+function showImage(index){current=(index+gallery.length)%gallery.length;large.src=gallery[current].src;large.alt=gallery[current].alt;caption.textContent=large.alt+' · '+(current+1)+' / '+gallery.length;}
+document.querySelectorAll('.project-body .gallery img,.project-body .thumb,.project-body .cols img').forEach(img=>{
+ const btn=document.createElement('button');btn.type='button';btn.className='zoom-button';btn.setAttribute('aria-label','放大查看：'+img.alt);img.replaceWith(btn);btn.append(img);
+ btn.addEventListener('click',()=>{trigger=btn;gallery=[...img.closest('.project-body').querySelectorAll('.zoom-button img')];showImage(gallery.indexOf(img));dialog.showModal();document.body.classList.add('modal-open');});
+});
+function close(){dialog.close();}
+dialog.querySelector('.lb-close').addEventListener('click',close);
+dialog.querySelector('.lb-prev').addEventListener('click',()=>showImage(current-1));
+dialog.querySelector('.lb-next').addEventListener('click',()=>showImage(current+1));
+dialog.addEventListener('click',e=>{if(e.target===dialog||e.target.classList.contains('lightbox-inner'))close();});
+dialog.addEventListener('close',()=>{document.body.classList.remove('modal-open');if(trigger)trigger.focus({preventScroll:true});});
+dialog.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();showImage(current-1);}if(e.key==='ArrowRight'){e.preventDefault();showImage(current+1);}});
+const copyButton=document.querySelector('.copy-email');
+copyButton.addEventListener('click',async()=>{
+ const email='sunkerry16@163.com';
+ try{if(!navigator.clipboard)throw new Error('fallback');await navigator.clipboard.writeText(email);}
+ catch{const input=document.createElement('textarea');input.value=email;input.style.cssText='position:fixed;opacity:0;pointer-events:none';document.body.append(input);input.select();const ok=document.execCommand('copy');input.remove();if(!ok){copyButton.textContent='请选中上方邮箱复制';return;}}
+ copyButton.textContent='邮箱已复制';setTimeout(()=>{copyButton.textContent='复制邮箱';},2400);
+});
 })();
-</script>
-</body>
-</html>
+</script></body></html>
